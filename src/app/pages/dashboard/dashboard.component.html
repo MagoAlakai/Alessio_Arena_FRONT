@@ -1,0 +1,123 @@
+
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                      <div class="logo">
+                        <img src="assets/CoolAdmin-master/images/icon/logo.png" alt="ITAcademy"/>
+                      </div>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li>
+                          <form (ngSubmit)="logout()">
+                            <button class="text-dark" type="submit"><i class="bi bi-box-arrow-left mr-3"></i>Logout</button>
+                          </form>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+              <img src="assets/CoolAdmin-master/images/icon/logo.png" alt="ITAcademy"/>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                      <li>
+                        <form (ngSubmit)="logout()">
+                          <button class="text-dark" type="submit"><i class="bi bi-box-arrow-left mr-3"></i>Logout</button>
+                        </form>
+                      </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap d-flex justify-content-end">
+                            <div class="account-item clearfix js-item-menu">
+                              <div class="image">
+                                  <img src="assets/images/alessio_cara.jpg" alt="Alessio Arena" />
+                              </div>
+                              <div class="content">
+                                  {{this.user.name}}
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+            <div class="main-content container">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-9">
+                                <h2 class="title-1 m-b-25">Earnings By Items</h2>
+                                <div class="container" style="min-height: 85vh">
+                                  <h1 class="display-6 text-center mt-3 mb-4">eventos</h1>
+                                  <table class="table table-striped mb-4">
+                                    <thead>
+                                      <tr>
+                                        <th class="col-1" scope="col">#</th>
+                                        <th class="col-1" scope="col">Date</th>
+                                        <th class="col-3" scope="col">Name</th>
+                                        <th class="col-3" scope="col">Place</th>
+                                        <th class="col-1" scope="col">Price</th>
+                                        <th class="col-2" scope="col">Info</th>
+                                        <th class="col-3" scope="col">Buy</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr *ngFor="let evento of eventos | async">
+                                        <th class="align-middle">{{evento.id}}</th>
+                                        <td>{{evento.date_hour}}</td>
+                                        <td>{{evento.name}}</td>
+                                        <td>{{evento.place}}</td>
+                                        <td>{{evento.price}}.00 €</td>
+                                        <td>{{evento.link_external}}</td>
+                                        <td>{{evento.link_shop}}</td>
+                                        <td>
+                                          <i class="bi bi-pencil-fill me-3 text-primary" [routerLink]="'/evento-form/'+evento.id"></i>
+                                          <i class="bi bi-trash-fill me-3 text-danger" (click)="deleteEvento(evento.id)"></i>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <div class="d-flex justify-content-center pb-4">
+                                    <button [routerLink]="'/evento-form/0'" class="btn btn-outline-primary me-5">Create evento</button>
+                                  </div>
+
+                              </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MAIN CONTENT-->
+            <!-- END PAGE CONTAINER-->
+        </div>
+
+<!-- end document-->
+
+

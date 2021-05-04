@@ -1,89 +1,35 @@
-
-
-
-
 <div class="page-wrapper">
   <!-- HEADER MOBILE-->
   <header class="header-mobile d-block d-lg-none">
-      <div class="header-mobile__bar">
-          <div class="container-fluid">
-              <div class="header-mobile-inner">
-                  <a class="logo" href="assets/CoolAdmin-master/index.html">
-                      <img src="assets/CoolAdmin-master/images/icon/logo.png" alt="CoolAdmin" />
-                  </a>
-                  <button class="hamburger hamburger--slider" type="button">
-                      <span class="hamburger-box">
-                          <span class="hamburger-inner"></span>
-                      </span>
-                  </button>
-              </div>
+    <div class="header-mobile__bar">
+      <div class="container-fluid">
+          <div class="header-mobile-inner">
+            <div class="logo">
+              <img src="assets/CoolAdmin-master/images/icon/logo.png" alt="Admin"/>
+            </div>
+              <button class="hamburger hamburger--slider" type="button">
+                  <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                  </span>
+              </button>
           </div>
       </div>
+    </div>
       <nav class="navbar-mobile">
           <div class="container-fluid">
               <ul class="navbar-mobile__list list-unstyled">
-                  <li class="has-sub">
-                      <a class="js-arrow" href="#">
-                          <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                  </li>
-                  <li>
-                      <a href="assets/CoolAdmin-master/table.html">
-                          <i class="fas fa-table"></i>Tables</a>
-                  </li>
-                  <li class="has-sub">
-                      <a class="js-arrow" href="#">
-                          <i class="fas fa-copy"></i>Pages</a>
-                      <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                          <li>
-                              <a href="assets/CoolAdmin-master/login.html">Login</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/register.html">Register</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/forget-pass.html">Forget Password</a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li class="has-sub">
-                      <a class="js-arrow" href="#">
-                          <i class="fas fa-desktop"></i>UI Elements</a>
-                      <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                          <li>
-                              <a href="assets/CoolAdmin-master/button.html">Button</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/badge.html">Badges</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/tab.html">Tabs</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/card.html">Cards</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/alert.html">Alerts</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/progress-bar.html">Progress Bars</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/modal.html">Modals</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/switch.html">Switchs</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/grid.html">Grids</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/fontawesome.html">Fontawesome Icon</a>
-                          </li>
-                          <li>
-                              <a href="assets/CoolAdmin-master/typo.html">Typography</a>
-                          </li>
-                      </ul>
-                  </li>
+                <li>
+                  <a class="js-arrow" [routerLink]="'/register'">
+                    <i class="bi bi-house-fill"></i>Home</a>
+                </li>
+                <li>
+                  <a [routerLink]="'/register'">
+                    <i class="bi bi-card-list"></i>Register</a>
+                </li>
+                <li>
+                  <a [routerLink]="'/login'">
+                    <i class="bi bi-box-arrow-right"></i>Login</a>
+                </li>
               </ul>
           </div>
       </nav>
@@ -93,7 +39,7 @@
   <!-- MENU SIDEBAR-->
   <aside class="menu-sidebar d-none d-lg-block">
     <div class="logo">
-      <img src="assets/images/IT_logo.png" style="height: 40px; width: 170px;" alt="ITAcademy"/>
+      <img src="assets/CoolAdmin-master/images/icon/logo.png" alt="ITAcademy"/>
     </div>
       <div class="menu-sidebar__content js-scrollbar1">
           <nav class="navbar-sidebar">
@@ -123,14 +69,8 @@
           <div class="section__content section__content--p30">
               <div class="container-fluid">
                   <div class="header-wrap">
-                      <form class="form-header" action="" method="POST">
-                          <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
-                          <button class="au-btn--submit" type="submit">
-                              <i class="zmdi zmdi-search"></i>
-                          </button>
-                      </form>
 
-                      </div>
+                  </div>
                   </div>
               </div>
 
