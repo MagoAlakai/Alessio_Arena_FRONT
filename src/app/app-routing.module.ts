@@ -16,13 +16,13 @@ const routes: Routes = [
 
   //Vistas usuarios
   { path: '', component: HomeComponent },
-  { path: '**', redirectTo: '' },
+  // { path: '**', redirectTo: '' },
 
   //Auth
   { path: 'register', component: RegistroComponent },
-  { path: 'dashboard'    , component: DashboardComponent, canActivate:[AuthGuard] },
-  { path: 'login'   , component: LoginComponent },
-  { path: 'forgot-password'   , component: ForgotPasswordComponent },
+  { path: 'dashboard', component: DashboardComponent, canActivate:[AuthGuard] },
+  { path: 'login', component: LoginComponent },
+  { path: 'forgot-password', component: ForgotPasswordComponent },
 
   //Crud
   { path: 'eventos', component: EventosComponent },

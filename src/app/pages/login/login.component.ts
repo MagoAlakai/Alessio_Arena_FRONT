@@ -69,7 +69,7 @@ export class LoginComponent implements OnInit {
               }
 
               //Entrar al dashboard personal
-              this.router.navigateByUrl(`/home`);
+              this.router.navigateByUrl(`/dashboard`);
 
 
               //Alert success
