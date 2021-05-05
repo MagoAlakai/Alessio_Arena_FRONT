@@ -101,7 +101,7 @@
                                         <td>{{evento.link_external}}</td>
                                         <td>{{evento.link_shop}}</td>
                                         <td>
-                                          <i class="bi bi-pencil-fill m-1 text-primary" [routerLink]="'/evento-form'+evento.id"></i>
+                                          <i class="bi bi-pencil-fill m-1 text-primary" [routerLink]="['/eventos/update', evento.id]"></i>
                                           <i class="bi bi-trash-fill m-1 text-danger" (click)="deleteEvento(evento.id)"></i>
                                         </td>
                                       </tr>

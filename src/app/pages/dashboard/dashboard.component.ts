@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../services/auth.service';
 import { EventosService } from '../../services/eventos.service';
 import { Router } from '@angular/router';
-
 import { Evento } from '../../models/Evento';
 
 import Swal from 'sweetalert2/dist/sweetalert2.js';
@@ -29,6 +28,11 @@ export class DashboardComponent implements OnInit {
     //Acceder al USER a través de localStorage para ser usado en vistas
     this.user = this.authService.leerUser();
 
+    //Limpiar localstorage para hacer logout si token expires en 60min
+    setTimeout(()=>{
+      this.logout();
+    },60000*60);
+
     //Leer todos los eventos
     this.getEventos();
   }
@@ -36,8 +40,29 @@ export class DashboardComponent implements OnInit {
   getEventos = async() =>{
     return this.eventos = this.eventosService.getEventos();
   }
-  deleteEvento = async() =>{
-    return this.eventos = this.eventosService.getEventos();
+
+  deleteEvento = async(id:number) =>{
+
+    Swal.fire({
+      title: '¿Estás seguro?',
+      text: "No podrás revertir esta acción",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Si, elimina este evento!'
+    }).then((result) => {
+      console.log(result);
+      if (result.isConfirmed) {
+        this.eventosService.deleteEvento(id);
+        Swal.fire({
+          title: 'Este evento se ha eliminado!',
+          text: 'Te enviaremos al listado de eventos.',
+          icon: 'success',
+          confirmButtonText: 'Ok',
+        });
+      }
+    }).finally(()=> this.getEventos());
   }
 
   logout() {

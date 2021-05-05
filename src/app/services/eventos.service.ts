@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Evento } from './../models/Evento';
+import { compileNgModule } from '@angular/core/src/render3/jit/module';
 
 @Injectable({
   providedIn: 'root'
@@ -16,25 +17,67 @@ export class EventosService {
   ) { }
 
   getEventos = async():Promise<Evento[]>=>{
-    this.token = localStorage.getItem('token');
-    console.log(this.token);
 
+    this.token = localStorage.getItem('token');
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${this.token}`
       })
     };
+
     return await this.httpClient.get(`${this.url}eventos`, httpOptions).toPromise() as Promise<Evento[]>;
   }
 
-  createEvento = async(evento:Evento):Promise<Object> =>{
+  getEventoById = async(id: string | number | null):Promise<Evento>=>{
+
+    this.token = localStorage.getItem('token');
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${this.token}`
       })
     };
-    return await this.httpClient.post(`${this.url}eventos/create`, evento, httpOptions).toPromise();
+
+    return await this.httpClient.get(`${this.url}eventos/${id}`, httpOptions).toPromise() as Promise<Evento>;
+  }
+
+  createEvento = async(evento:Evento):Promise<Object> =>{
+
+    this.token = localStorage.getItem('token');
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${this.token}`
+      })
+    };
+
+    return await this.httpClient.post(`${this.url}eventos/create`, evento, httpOptions).toPromise() as Promise<Object>;
+  }
+
+  updateEvento = async(evento:Evento, id: string | number | null):Promise<Object> =>{
+
+    this.token = localStorage.getItem('token');
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${this.token}`
+      })
+    };
+    console.log(httpOptions.headers);
+    return await this.httpClient.put(`${this.url}eventos/update/${id}`, evento, httpOptions).toPromise() as Promise<Object>;
+  }
+
+  deleteEvento = async(id: number):Promise<Object> =>{
+
+    this.token = localStorage.getItem('token');
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${this.token}`
+      })
+    };
+
+    return await this.httpClient.delete(`${this.url}eventos/delete/${id}`, httpOptions).toPromise() as Promise<Object>;
   }
 }

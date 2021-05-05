@@ -1,3 +1,165 @@
-<p>
-  update-evento works!
-</p>
+
+    <div class="page-wrapper">
+      <!-- HEADER MOBILE-->
+      <header class="header-mobile d-block d-lg-none">
+          <div class="header-mobile__bar">
+              <div class="container-fluid">
+                  <div class="header-mobile-inner">
+                    <div class="logo">
+                      <img src="assets/CoolAdmin-master/images/icon/logo.png" alt="ITAcademy"/>
+                    </div>
+                      <button class="hamburger hamburger--slider" type="button">
+                          <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                          </span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+          <nav class="navbar-mobile">
+              <div class="container-fluid">
+                  <ul class="navbar-mobile__list list-unstyled">
+                      <li>
+                        <!-- <form (ngSubmit)="logout()">
+                          <button class="text-dark" type="submit"><i class="bi bi-box-arrow-left mr-3"></i>Logout</button>
+                        </form> -->
+                    </li>
+                  </ul>
+              </div>
+          </nav>
+      </header>
+      <!-- END HEADER MOBILE-->
+
+      <!-- MENU SIDEBAR-->
+      <aside class="menu-sidebar d-none d-lg-block">
+          <div class="logo">
+            <img src="assets/CoolAdmin-master/images/icon/logo.png" alt="ITAcademy"/>
+          </div>
+          <div class="menu-sidebar__content js-scrollbar1">
+              <nav class="navbar-sidebar">
+                  <ul class="list-unstyled navbar__list">
+                    <li>
+                      <!-- <form (ngSubmit)="logout()">
+                        <button class="text-dark" type="submit"><i class="bi bi-box-arrow-left mr-3"></i>Logout</button>
+                      </form> -->
+                    </li>
+                  </ul>
+              </nav>
+          </div>
+      </aside>
+      <!-- END MENU SIDEBAR-->
+
+      <!-- PAGE CONTAINER-->
+      <div class="page-container">
+          <!-- HEADER DESKTOP-->
+          <header class="header-desktop">
+              <div class="section__content section__content--p30">
+                  <div class="container-fluid">
+                      <div class="header-wrap d-flex justify-content-end">
+                          <div class="account-item clearfix js-item-menu">
+                            <div class="image">
+                                <img src="assets/images/alessio_cara.jpg" alt="Alessio Arena" />
+                            </div>
+                            <div class="content">
+                                {{this.user.name}}
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </header>
+          <!-- HEADER DESKTOP-->
+
+          <!-- MAIN CONTENT-->
+          <div class="main-content container">
+              <div class="d-flex justify-content-center">
+                  <div class="col-12">
+                        <div class="login-wrap w-100">
+                          <div class="login-content">
+                              <h4 class="login-logo">
+                                  Crear Evento
+                              </h4>
+
+                        <div class="d-flex justify-content-center pb-4">
+                          <button [routerLink]="'/dashboard'" class="btn btn-outline-primary">Volver al listado de eventos</button>
+                        </div>
+
+                        <form [formGroup]="eventoForm" (ngSubmit)="onSubmit(eventoForm)">
+
+                          <div class="d-flex justify-content-center row">
+
+                            <div class="form-group col-8">
+                              <label class="mb-2" for="date">Fecha</label>
+                              <input type="date" [ngClass]="{'is-invalid':eventoForm.get('date')?.hasError('required')}" class="form-control" id="arrival_date" placeholder="Enter arrival date" formControlName='date'>
+                              <div class="invalid-feedback"></div>
+                            </div>
+
+                            <div class="form-group col-4">
+                              <label class="mb-2" for="hour">Hora</label>
+                              <input type="time" [ngClass]="{'is-invalid':eventoForm.get('hour')?.hasError('required')}" class="form-control" id="hour" placeholder="Enter arrival date" formControlName='hour'>
+                              <div class="invalid-feedback"></div>
+                            </div>
+
+                          </div>
+
+                          <div class="d-flex justify-content-center row">
+
+                            <div class="form-group col-12">
+                              <label class="mb-2" for="name">Nombre</label>
+                              <input [ngClass]="{'is-invalid':eventoForm.get('name')?.hasError('required')}" class="form-control" id="name" placeholder="Introduzca nombre" formControlName='name'>
+                              <div class="invalid-feedback"></div>
+                            </div>
+
+                          </div>
+
+                          <div class="d-flex justify-content-center row">
+
+                            <div class="form-group col-8">
+                              <label class="mb-2" for="place">Lugar</label>
+                              <input [ngClass]="{'is-invalid':eventoForm.get('place')?.hasError('required')}" class="form-control" id="place" placeholder="Introduzca lugar" formControlName='place'>
+                              <div class="invalid-feedback"></div>
+                            </div>
+
+                            <div class="form-group col-4">
+                              <label class="mb-2" for="price">Precio</label>
+                              <input type="number" [ngClass]="{'is-invalid':eventoForm.get('price')?.hasError('required')}" class="form-control" id="price" formControlName='price'>
+                              <div class="invalid-feedback"></div>
+                            </div>
+
+                          </div>
+
+                          <div class="d-flex justify-content-center row">
+
+                            <div class="form-group col-12">
+                              <label class="mb-2" for="link_external">Link info</label>
+                              <input [ngClass]="{'is-invalid':eventoForm.get('link_external')?.hasError('required')}" class="form-control" id="link_external" placeholder="Introduzca link info" formControlName='link_external'>
+                              <div class="invalid-feedback"></div>
+                            </div>
+
+                          </div>
+
+                          <div class="d-flex justify-content-center row">
+
+                            <div class="form-group col-12">
+                              <label class="mb-2" for="link_shop">Link compra</label>
+                              <input [ngClass]="{'is-invalid':eventoForm.get('link_shop')?.hasError('required')}" class="form-control" id="link_shop" placeholder="Introduzca link compra" formControlName='link_shop'>
+                              <div class="invalid-feedback"></div>
+                            </div>
+
+                          </div>
+
+                          <div class="d-flex justify-content-center mt-4 pb-4">
+                            <button type="submit" class="btn btn-outline-primary me-5" [disabled]="eventoForm.invalid">Actualizar evento</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- END MAIN CONTENT-->
+          <!-- END PAGE CONTAINER-->
+      </div>
+
+<!-- end document-->

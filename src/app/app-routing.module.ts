@@ -8,6 +8,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CreateEventoComponent } from './pages/create-evento/create-evento.component';
+import { UpdateEventoComponent } from './pages/update-evento/update-evento.component';
 
 //Guards
 import { AuthGuard } from './guards/auth.guard';
@@ -26,7 +27,8 @@ const routes: Routes = [
   { path: 'forgot-password', component: ForgotPasswordComponent },
 
   //Crud
-  { path: 'eventos/create', component: CreateEventoComponent },
+  { path: 'eventos/create', component: CreateEventoComponent, canActivate:[AuthGuard]  },
+  { path: 'eventos/update/:id', component: UpdateEventoComponent, canActivate:[AuthGuard]  },
 
 ];
 

@@ -23,7 +23,7 @@ import { UpdateEventoComponent } from './pages/update-evento/update-evento.compo
     ForgotPasswordComponent,
     HomeComponent,
     CreateEventoComponent,
-    UpdateEventoComponent
+    UpdateEventoComponent,
   ],
   imports: [
     BrowserModule,
