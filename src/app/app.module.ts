@@ -5,12 +5,12 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WebModule } from './web/web.module';
 
 import { RegistroComponent } from './pages/registro/registro.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
-import { HomeComponent } from './pages/home/home.component';
 import { CreateEventoComponent } from './pages/create-evento/create-evento.component';
 import { UpdateEventoComponent } from './pages/update-evento/update-evento.component';
 
@@ -21,7 +21,6 @@ import { UpdateEventoComponent } from './pages/update-evento/update-evento.compo
     DashboardComponent,
     LoginComponent,
     ForgotPasswordComponent,
-    HomeComponent,
     CreateEventoComponent,
     UpdateEventoComponent,
   ],
@@ -31,6 +30,7 @@ import { UpdateEventoComponent } from './pages/update-evento/update-evento.compo
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    WebModule
   ],
   providers: [],
   bootstrap: [AppComponent]
