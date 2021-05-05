@@ -1,6 +1,7 @@
 export interface Evento {
   id?: number,
-  date_hour: string,
+  date: string,
+  hour: string,
   name: string,
   place: string,
   price: number,

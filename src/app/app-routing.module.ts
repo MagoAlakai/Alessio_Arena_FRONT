@@ -7,10 +7,11 @@ import { RegistroComponent } from './pages/registro/registro.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { HomeComponent } from './pages/home/home.component';
-import { EventosComponent } from './pages/eventos/eventos.component';
+import { CreateEventoComponent } from './pages/create-evento/create-evento.component';
 
 //Guards
 import { AuthGuard } from './guards/auth.guard';
+
 
 const routes: Routes = [
 
@@ -25,7 +26,7 @@ const routes: Routes = [
   { path: 'forgot-password', component: ForgotPasswordComponent },
 
   //Crud
-  { path: 'eventos', component: EventosComponent },
+  { path: 'eventos/create', component: CreateEventoComponent },
 
 ];
 

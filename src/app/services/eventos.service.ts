@@ -16,8 +16,8 @@ export class EventosService {
   ) { }
 
   getEventos = async():Promise<Evento[]>=>{
-
     this.token = localStorage.getItem('token');
+    console.log(this.token);
 
     const httpOptions = {
       headers: new HttpHeaders({
@@ -26,5 +26,15 @@ export class EventosService {
       })
     };
     return await this.httpClient.get(`${this.url}eventos`, httpOptions).toPromise() as Promise<Evento[]>;
+  }
+
+  createEvento = async(evento:Evento):Promise<Object> =>{
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${this.token}`
+      })
+    };
+    return await this.httpClient.post(`${this.url}eventos/create`, evento, httpOptions).toPromise();
   }
 }

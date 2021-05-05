@@ -11,7 +11,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { HomeComponent } from './pages/home/home.component';
-import { EventosComponent } from './pages/eventos/eventos.component';
+import { CreateEventoComponent } from './pages/create-evento/create-evento.component';
+import { UpdateEventoComponent } from './pages/update-evento/update-evento.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EventosComponent } from './pages/eventos/eventos.component';
     LoginComponent,
     ForgotPasswordComponent,
     HomeComponent,
-    EventosComponent
+    CreateEventoComponent,
+    UpdateEventoComponent
   ],
   imports: [
     BrowserModule,
