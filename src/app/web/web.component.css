@@ -1,3 +1,71 @@
-body {
+/* body {
   min-height: 100vh;
+  min-width: 100vh;
+  background-image: url('../../assets/images/portadaHD7.jpg');
+} */
+
+/*Break point para adaptar boton y estilos */
+
+@media (max-width: 767.98px) {
+  body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url('../../assets/images/portada_movil2.jpg');
+    /* font-family: "Raleway";
+    -webkit-font-smoothing: antialiased;
+    font-size: 17pt !important;
+    line-height: 23pt;
+    color: #fff;
+    position:relative;
+    top:-80%;
+    left: -50%;
+    transform: translate(-10%,40%);
+    max-width: 100%;
+    text-align: center;*/
+
+  }
+  /* .button {
+    border: 1.5px solid #fff;
+    color: #fff;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 12pt;
+    padding: 10px 20px;
+    transition: all 1s;
+    background: transparent;
+  } */
 }
+
+@media (min-width: 768px) {
+  body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url('../../assets/images/portadaHD_ipad.jpg');
+  }
+}
+
+@media (min-width: 1200px) {
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url('../../assets/images/portadaHD7.jpg');
+  }
+}
+
+@media (min-width: 1400px) {
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url('../../assets/images/portadaHD_mediana.jpg');
+  }
+}
+
+@media (min-width: 1600px) {
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url('../../assets/images/portadaHD_grande.jpg');
+  }
+}
+
+
