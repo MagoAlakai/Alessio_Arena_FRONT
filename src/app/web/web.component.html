@@ -1,8 +1,25 @@
 <body>
+  <h1 id="nombre" class="ml-4 pt-3">alessio arena</h1>
 
-  <router-outlet></router-outlet>
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <nav id="menu" class="nav flex-column">
+      <a class="nav-link pl-4"  [routerLink]="['/libros']" routerLinkActive="router-link-active"  >libros</a>
+      <a class="nav-link pl-4" [routerLink]="['/discos']" routerLinkActive="router-link-active" href="#">discos</a>
+      <a class="nav-link pl-4" [routerLink]="['/traducciones']" routerLinkActive="router-link-active" href="#">traducciones</a>
+      <a class="nav-link pl-4" [routerLink]="['/biografia']" routerLinkActive="router-link-active" href="#">biografía</a>
+      <a class="nav-link pl-4" [routerLink]="['/agenda']" routerLinkActive="router-link-active" href="#">agenda</a>
+      <a class="nav-link pl-4" [routerLink]="['/contacto']" routerLinkActive="router-link-active" href="#">contacto</a>
+    </nav>
+  </div>
+</nav>
 
 </body>
+
 
 
 
