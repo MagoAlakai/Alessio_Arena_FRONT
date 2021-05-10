@@ -1,9 +1,8 @@
 /*Estilos generales*/
 
 a{
-  font-size: 20px;
-  margin-bottom: -16px;
   font-size: 22px;
+  margin-bottom: -16px;
   text-decoration: none;
   color: #010101;
 }
@@ -11,6 +10,7 @@ a{
 #nombre{
   color:rgb(212, 209, 209);
   font-size: 50px;
+  margin-left: 20px;
 }
 
 
@@ -39,14 +39,13 @@ a{
   }
   #nombre{
     font-size: 35px;
+    margin-left: 20px;
   }
 
   a{
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: -16px;
-    font-size: 22px;
     text-decoration: none;
-
   }
 
   #menu{
@@ -75,8 +74,9 @@ a{
     background-image: url('../../assets/images/portadaHD_ipad3.jpg');
   }
 
+
   /*TODO: decidir si en IPAD es necesario poner borroso en menu */
-  #menu{
+    #menu{
     backdrop-filter: blur(-10px);
     background-color: rgba(255, 255, 255, 0.575);
     -webkit-backdrop-filter: blur(-10px);
@@ -94,7 +94,7 @@ a{
 }
 
 @media (min-width: 1100px) {
-body{
+  body{
     min-height: 100vh;
     min-width: 100vh;
     background-image: url('../../assets/images/portadaHD7.jpg');
@@ -102,18 +102,45 @@ body{
 }
 
 @media (min-width: 1440px) {
-body{
+  body{
     min-height: 100vh;
     min-width: 100vh;
     background-image: url('../../assets/images/portadaHD7.jpg');
   }
+
+  #nombre{
+    font-size: 55px;
+    margin-left: 30px;
+    margin-bottom: -7px;
+  }
+
+  a{
+    font-size: 23px;
+    margin-left: 20px;
+    margin-bottom: -16px;
+    text-decoration: none;
+  }
+
 }
 
 @media (min-width: 1600px) {
-body{
+  body{
     min-height: 100vh;
     min-width: 100vh;
     background-image: url('../../assets/images/portadaHD_grande.jpg');
+  }
+
+  #nombre{
+    font-size: 60px;
+    margin-left: 40px;
+    margin-bottom: -7px;
+  }
+
+  a{
+    font-size: 25px;
+    margin-left: 42px;
+    margin-bottom: -16px;
+    text-decoration: none;
   }
 }
 

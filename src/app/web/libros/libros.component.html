@@ -1,3 +1,16 @@
+ <div class="card-deck">
+  <div id="libros" *ngFor="let libro of libros" class="card">
+    <img class="card-img-top" src="{{libro.imagen}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{libro.titulo}}</h5>
+      <p class="card-text">{{libro.descripcion}}</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+
 
 
 

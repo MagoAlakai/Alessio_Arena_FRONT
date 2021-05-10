@@ -73,7 +73,7 @@
             <!-- MAIN CONTENT-->
             <div class="main-content container">
                         <div class="d-flex justify-content-center">
-                            <div class="col-12">
+                            <div id="table">
                                 <h2 class="title-1 text-center mb-4">Listado de Eventos</h2>
                                 <div class="d-flex justify-content-center pb-4">
                                   <button [routerLink]="'/eventos/create'" class="btn btn-outline-primary me-5">Crear evento</button>
@@ -81,14 +81,14 @@
                                   <table class="table table-responsive table-striped mb-4">
                                     <thead>
                                       <tr class="bg-dark text-light">
-                                        <th class="col-1">Fecha</th>
-                                        <th class="col-1">Hora</th>
-                                        <th class="col-2">Nombre</th>
-                                        <th class="col-2">Lugar</th>
-                                        <th class="col-1">Precio</th>
-                                        <th class="col-2">Info</th>
-                                        <th class="col-2">Comprar</th>
-                                        <th class="col-1">Acción</th>
+                                        <th>Fecha</th>
+                                        <th>Hora</th>
+                                        <th>Nombre</th>
+                                        <th>Lugar</th>
+                                        <th>Precio</th>
+                                        <th>Info</th>
+                                        <th>Comprar</th>
+                                        <th>Acción</th>
                                       </tr>
                                     </thead>
                                     <tbody >
