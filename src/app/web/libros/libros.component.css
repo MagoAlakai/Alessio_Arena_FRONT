@@ -1,9 +1,8 @@
 #libros{
-  backdrop-filter: blur(2px);
-  background-color: rgba(255, 255, 255, 0.575);
-  -webkit-backdrop-filter: blur(-30px);
+  /* backdrop-filter: blur(10px); */
+  background-color: rgba(255, 255, 255, 0.678);
+  /* -webkit-backdrop-filter: blur(10px); */
   color: black;
-  margin-left: 300px;
 }
 
 .card-deck{
@@ -18,9 +17,34 @@
 
 .my-custom-scrollbar {
   position: relative;
-  height: 100vh;
+  height: 85vh;
   overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+display: block;
+}
+
+@media (max-width: 767.98px) {
+
+  .card-deck{
+    margin-top: 30px;
   }
-  .table-wrapper-scroll-y {
-  display: block;
+
+  .container{
+    margin-left:-44px;
   }
+
+  #imagen{
+    max-width: 150px;
+    max-height: 300px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    max-width: 50vh;
+    overflow: auto;
+  }
+
+}

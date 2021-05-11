@@ -1,15 +1,18 @@
-<div class="card-deck d-block table-wrapper-scroll-y my-custom-scrollbar" >
-  <div id="libros" *ngFor="let libro of libros" class="card col-8 mx-auto mb-4">
-    <img id="imagen" class="card-img-top" [src]="libro.imagen" alt="">
-    <div class="card-body">
-      <h3 class="card-title">{{libro.titulo}}</h3>
-      <p class="card-text">{{libro.descripcion}}</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+<div class="container">
+  <div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow">
+    <div id="libros" *ngFor="let libro of libros" class="card col-8 mx-auto mb-4">
+      <img id="imagen" class="card-img-top mt-3" [src]="libro.imagen" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{libro.titulo}}</h3>
+        <p class="card-text">{{libro.descripcion}}</p>
+      </div>
+      <div *ngIf="libro.premios" class="card-footer">
+        <small><strong>{{libro.premios}}</strong></small>
+      </div>
     </div>
   </div>
 </div>
+
 
 
 

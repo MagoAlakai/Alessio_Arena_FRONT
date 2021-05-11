@@ -21,6 +21,7 @@ export class LibrosComponent implements OnInit {
         titulo: 'La letteratura tamil a Napoli (Neri Pozza, 2014)',
         descripcion: "Escondidos en el subsuelo de la ciudad, y dispuestos a inmolarse para dar a conocer al mundo la trágica causa del Tamil Eelam, su patria perdida, tras la rendición final de los Tigres y el asesinato de su líder Velupillai Prabhakaran por las fuerzas gubernamentales de Sri Lanka, los tamiles de Nápoles en veinte años de trabajo han creado otro mundo. Casi un doble de la ciudad, y han formado una sociedad secreta, la Accademia dei Sotterranei, que sigue produciendo obras literarias napo-tamiles. Diez de sus escritores, enclavados en el subsuelo de la ciudad, cuentan la maravillosa historia de esta guerra desconocida, y lo hacen en diez capítulos, tantos como son los avatares (reencarnaciones) de Vishnu, cuyos retablos destacan en los bajos de los barrios Materdei, Sanità, Quartieri Spagnoli y Pallonetto di Santa Lucia. En este concierto narrativo, una comunidad invisible cuenta sus asombrosas hazañas, sus mitologías y su vida cotidiana. Es una comunidad que ha dejado su huella en el imaginario actual de Nápoles y que, a su vez, ha sido profundamente marcada por el carácter de la ciudad, creando mezclas sorprendentes. Así que tenemos vírgenes con trompa y cola de elefante, santos nacidos de la fusión de Buda y San Gennaro, y una desesperada actividad literaria expresada en las páginas de una revista underground llamada Cannarutizia...",
         imagen: '/assets/images/La letteratura tamil a Napoli.jpg',
+        premios: 'Segundo clasificado en el Premio Neri Pozza 2014, finalista Premio Minerva 2014.',
       },
       {
         titulo: 'La casa girata (novela breve) (Senzapatria, 2010)',
@@ -36,6 +37,7 @@ export class LibrosComponent implements OnInit {
         titulo: 'L’infanzia delle cose (Manni, 2009)',
         descripcion: "Años ochenta. Nápoles, Rione Sanità. Antonio Bacioterracino tiene quince años. Su padre, Patrizio, un cantante relacionado con la Camorra, muere de una sobredosis de heroína, y el resto de la familia se traslada a Madrid, al barrio de Lavapiés, guarida de la comunidad gitana. Pero en esta historia no hay clichés. Un realismo mágico napolitano-latino y un lenguaje que provoca el encuentro entre dos culturas, persiguiéndose entre violines, incendios, un perro que imita el vibrato de June Christy, cucarachas, ajuntadoras y estafadores napolitanos.",
         imagen: "/assets/images/L'infanzia delle cose.jpg",
+        premios: 'Premio Giuseppe Giusti Opera Prima',
       },
     ]
   }
