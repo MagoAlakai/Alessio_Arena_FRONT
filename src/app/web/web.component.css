@@ -13,28 +13,14 @@ a{
   margin-left: 20px;
 }
 
-/*Break point para adaptar background y estilos */
+/*Break points para adaptar background y estilos */
 
 @media (max-width: 767.98px) {
   body{
     min-height: 100vh;
     min-width: 100vh;
     background-image: url('../../assets/images/portada_movil2.jpg');
-    /* background-position: center center; */
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* font-family: "Raleway";
-    -webkit-font-smoothing: antialiased;
-    font-size: 17pt !important;
-    line-height: 23pt;
-    color: #fff;
-    position:relative;
-    top:-80%;
-    left: -50%;
-    transform: translate(-10%,40%);
-    max-width: 100%;
-    text-align: center;*/
-
   }
   #nombre{
     font-size: 35px;
@@ -54,16 +40,6 @@ a{
   padding-bottom: 12px;
   margin-left: -15px;
   }
-  /* .button {
-    border: 1.5px solid #fff;
-    color: #fff;
-    box-sizing: inherit;
-    display: inline-block;
-    font-size: 12pt;
-    padding: 10px 20px;
-    transition: all 1s;
-    background: transparent;
-  } */
 }
 
 @media (min-width: 768px) {
@@ -73,14 +49,12 @@ a{
     background-image: url('../../assets/images/portadaHD_ipad3.jpg');
   }
 
-
-  /*TODO: decidir si en IPAD es necesario poner borroso en menu */
-    #menu{
-    backdrop-filter: blur(-10px);
-    background-color: rgba(255, 255, 255, 0.575);
-    -webkit-backdrop-filter: blur(-10px);
-    padding-bottom: 12px;
-    margin-left: -15px;
+  #menu{
+  backdrop-filter: blur(-10px);
+  background-color: rgba(255, 255, 255, 0.575);
+  -webkit-backdrop-filter: blur(-10px);
+  padding-bottom: 12px;
+  margin-left: -15px;
   }
 }
 
