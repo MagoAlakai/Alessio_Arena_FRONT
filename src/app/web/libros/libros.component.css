@@ -9,15 +9,18 @@
 
 /*Break points para adaptar background y estilos */
 
-@media (max-width: 767.98px) {
+@media (min-width: 270px) and (max-width: 767.98px) {
 
   .card-deck{
     margin-top: 30px;
   }
 
+  .card{
+    margin-left: 15px;
+  }
+
   .table-wrapper-scroll-y {
     display: block;
-    margin-left: -30px;
   }
 
   #imagen{
@@ -29,12 +32,12 @@
   .my-custom-scrollbar {
     position: relative;
     height: 85vh;
-    width: 55vh;
     overflow: auto;
   }
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 768px) and (max-width: 991.98px) {
 
   .card-deck{
     padding-top: 20px;
@@ -44,9 +47,12 @@
     padding-top: 10px;
   }
 
+  .card{
+    margin-left: 27px;
+  }
+
   .table-wrapper-scroll-y {
     display: block;
-    margin-left: -80px;
   }
 
   #imagen{
@@ -58,71 +64,116 @@
   .my-custom-scrollbar {
     position: relative;
     height: 85vh;
-    width: 90vh;
     overflow: auto;
   }
 
-  .table-wrapper-scroll-y {
-    display: block;
-
-  }
 }
 
-@media (max-width: 999.98px) {
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
   .card-deck{
-    margin-top: 20px;
-  }
-
-  .card-text{
-    margin-top: 10px;
-  }
-
-  .table-wrapper-scroll-y {
-    display: block;
-    margin-left: -80px;
-  }
-
-  #imagen{
-    max-width: 150px;
-    max-height: 300px;
-    margin-left: 20px;
-  }
-
-  .my-custom-scrollbar {
-    position: relative;
-    height: 85vh;
-    width: 90vh;
-    overflow: auto;
-  }
-
-  .table-wrapper-scroll-y {
-    display: block;
-  }
-}
-
-@media (min-width: 1000px) {
-
-  .card-deck{
-    margin-top: -200px;
-    margin-left: -60px;
+    margin-top: 30px;
   }
 
   #imagen{
     max-width: 200px;
     max-height: 400px;
+    margin-left: 20px;
   }
 
   .my-custom-scrollbar {
     position: relative;
     height: 85vh;
-    width: 230vh;
     overflow: auto;
   }
 
   .table-wrapper-scroll-y {
-  display: block;
+    display: block;
+  }
 
+}
+
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+  .card-deck{
+    margin-top: -210px;
+  }
+
+  .card{
+    margin-left: 120px;
+  }
+
+  #imagen{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+
+@media (min-width: 1441px) and (max-width: 1799.98px) {
+
+  .card-deck{
+    margin-top: -215px;
+  }
+
+  .card{
+    margin-left: 150px;
+  }
+
+  #imagen{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+
+  .card-deck{
+    margin-top: -235px;
+  }
+
+  .card{
+    margin-left: 170px;
+  }
+
+  #imagen{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
   }
 
 }
