@@ -9,6 +9,7 @@ export class LibrosComponent implements OnInit {
 
   public libros: any[];
   public teatros: any[];
+  public librosColectivos: any[];
 
   constructor() {
 
@@ -72,13 +73,37 @@ export class LibrosComponent implements OnInit {
       {
         titulo: 'Quattro mamme scelte a caso (Teatro Civico 14, Caserta, 2011)',
         descripcion: "La obra es un acercamiento a la obra de Annibale Ruccello a través de cuatro monólogos capaces de devolver los mismos personajes femeninos excepcionales del gran dramaturgo fallecido en un trágico accidente de tráfico. Alessio Arena escribe Sciore Arancia, interpretado por Gea Martire.",
-        imagen: "assets/images/Quattro mamme scelte a caso (Libro Caracò editore).jpg",
+        imagen: "assets/images/Quattro mamme scelte a caso (Teatro).jpg",
       },
       {
         titulo: 'A freva – La peste al Rione Sanità (Teatro di Napoli Mercadante, 2020)',
         descripcion: "Alessio Arena compone las músicas para la obra, con los arreglos y la producción de Luigi Esposito.",
         imagen: '',
       },
+    ],
+
+    this.librosColectivos = [
+
+      {
+        titulo: 'Napoli per le strade (Azimut, 2009)',
+        descripcion: "Veintiún lugares de Nápoles componen la cartografía de una ciudad demasiado vasta y rica en energías contrastadas para ser definida por un solo nombre, o peor, por un estereotipo.",
+        imagen: "/assets/images/Napoli per le strade.jpg",
+      },
+      {
+        titulo: 'Diva mon amour (Azimut, 2010)',
+        descripcion: 'Una colección de relatos breves dedicados a los mayores iconos gay de la historia.',
+        imagen: '/assets/images/Diva Mon Amour.jpg',
+      },
+      {
+        titulo: 'Quattro mamme scelte a caso (Caracò, 2012))',
+        descripcion: "Veinticinco años después de la muerte de Annibale Ruccello, un homenaje de cuatro nuevos autores napolitanos a uno de los dramaturgos más innovadores de la segunda mitad del siglo XX.",
+        imagen: 'assets/images/Quattro mamme scelte a caso (Libro Caracò editore).jpg',
+      },
+      {
+        titulo: 'Panamericana (La nuova frontiera, 2016) ',
+        descripcion: "Un viaje - de México a la Patagonia, pero también más allá - que nueve escritores italianos nos invitan a emprender. (Alessio Arena escribe sobre Reinaldo Arenas.)",
+        imagen: "/assets/images/Panamericana-La-Nuova-Frontiera.jpg",
+      }
     ]
   }
 
