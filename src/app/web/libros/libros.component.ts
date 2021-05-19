@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LibrosComponent implements OnInit {
 
   public libros: any[];
+  public teatros: any[];
 
   constructor() {
 
@@ -38,6 +39,45 @@ export class LibrosComponent implements OnInit {
         descripcion: "Años ochenta. Nápoles, Rione Sanità. Antonio Bacioterracino tiene quince años. Su padre, Patrizio, un cantante relacionado con la Camorra, muere de una sobredosis de heroína, y el resto de la familia se traslada a Madrid, al barrio de Lavapiés, guarida de la comunidad gitana. Pero en esta historia no hay clichés. Un realismo mágico napolitano-latino y un lenguaje que provoca el encuentro entre dos culturas, persiguiéndose entre violines, incendios, un perro que imita el vibrato de June Christy, cucarachas, ajuntadoras y estafadores napolitanos.",
         imagen: "/assets/images/L'infanzia delle cose.jpg",
         premios: 'Premio Giuseppe Giusti Opera Prima',
+      },
+    ],
+
+    this.teatros = [
+
+      {
+        titulo: 'Ll’aucielle, texto napolitano a partir de “Las Aves” de Aristófanes (2019)',
+        descripcion: "Los que buscan vivir en una ciudad entre las aves son dos divertidas transexuales napolitanas que intentan buscar una alternativa a la imparable gentrificación de su ciudad.",
+        imagen: "/assets/images/Ll'aucielle.jpg",
+      },
+      {
+        titulo: 'Las ratas (2018)',
+        descripcion: 'Tres mujeres encerradas en las escaleras de un edificio. Afuera, una invasión de ratas llena toda una ciudad. Ésta podría ser Madrid, Nápoles o Barcelona. Todo está en confiar en los relatos alucinantes de las tres protagonistas.',
+        imagen: '/assets/images/las ratas.jpg',
+      },
+      {
+        titulo: 'Marinella, texto napolitano a partir de “La Sirenita” de Andersen (2015)',
+        descripcion: "Marinella y sus hermanas viven en los subterráneos de Nápoles. A diferencia de los otros habitantes, estas sirenas, mitad mujer y mitad rata, tuvieron que aislarse a partir de su horrible transformación, causada por la apocalíptica crisis de gestión de residuos de la ciudad.",
+        imagen: '/assets/images/Marinella.jpg',
+      },
+      {
+        titulo: 'Árbol (Espacio Labruc, Madrid, 2014)',
+        descripcion: "Sor Margarita quiere matar todas las plantas que habitan en el jardín de la institución psiquiátrica que dirige. Anturio, su sobrino invertido, tiene como misión convertir este vergel demoníaco en un páramo según las órdenes de su tía. Una labor a la que se resiste, pues tiene una particular fascinación por Celidonia, la interna más singular que se encuentra allí, quien trata a uno de los árboles del jardín como si fuera su hijo.",
+        imagen: "/assets/images/Árbol.png",
+      },
+      {
+        titulo: 'Hielo (Nudo Teatro, Madrid, 2012)',
+        descripcion: "Un relato lírico sobre Reinaldo Atxaga, un joven auxiliar de enfermería en un centro de discapacitados y asiduo visitante de páginas de contactos gay. Reinaldo basa en su experiencia profesional y biográfica la idea de que el sexo debe estar completamente desvinculado de su carácter social y ser vivido como hecho natural entre seres humanos.",
+        imagen: "/assets/images/Hielo.jpg",
+      },
+      {
+        titulo: 'Quattro mamme scelte a caso (Teatro Civico 14, Caserta, 2011)',
+        descripcion: "La obra es un acercamiento a la obra de Annibale Ruccello a través de cuatro monólogos capaces de devolver los mismos personajes femeninos excepcionales del gran dramaturgo fallecido en un trágico accidente de tráfico. Alessio Arena escribe Sciore Arancia, interpretado por Gea Martire.",
+        imagen: "assets/images/Quattro mamme scelte a caso (Libro Caracò editore).jpg",
+      },
+      {
+        titulo: 'A freva – La peste al Rione Sanità (Teatro di Napoli Mercadante, 2020)',
+        descripcion: "Alessio Arena compone las músicas para la obra, con los arreglos y la producción de Luigi Esposito.",
+        imagen: '',
       },
     ]
   }

@@ -1,4 +1,6 @@
 <div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow pb-4 mx-auto pl-5 pl-sm-5 pl-md-4 pl-lg-5 pl-xl-5">
+  <h1 id="libroTitulo" class="mb-3">Novela</h1>
+  <hr>
   <div id="libros" *ngFor="let libro of libros" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
     <img id="imagen" class="card-img-top mt-3" [src]="libro.imagen" alt="">
     <div class="card-body">
@@ -9,7 +11,19 @@
       <small><strong>{{libro.premios}}</strong></small>
     </div>
   </div>
+  <h1 id="libroTitulo" class="mb-3">Teatro</h1>
+  <hr>
+  <div id="libros" *ngFor="let teatro of teatros" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+    <img id="imagen" class="card-img-top mt-3" [src]="teatro.imagen" alt="">
+    <div class="card-body">
+      <h3 class="card-title">{{teatro.titulo}}</h3>
+      <p class="card-text">{{teatro.descripcion}}</p>
+    <div *ngIf="teatro.premios" class="card-footer">
+      <small><strong>{{teatro.premios}}</strong></small>
+    </div>
+  </div>
 </div>
+
 
 
 

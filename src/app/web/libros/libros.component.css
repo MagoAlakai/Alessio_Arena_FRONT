@@ -7,9 +7,23 @@
   color: black;
 }
 
+h1, h2{
+  color: #686868;
+}
+
 /*Break points para adaptar background y estilos */
 
 @media (min-width: 270px) and (max-width: 767.98px) {
+
+
+  #libroTitulo{
+    margin-left: 20px;
+    margin-top: -2px;
+  }
+
+  hr{
+    display:none;
+  }
 
   .card-deck{
     margin-top: 30px;
@@ -38,6 +52,18 @@
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+  #libroTitulo{
+    margin-left: 30px;
+    margin-top: -5px;
+  }
+
+  hr{
+    margin-left: 30px;
+    margin-right: 310px;
+    margin-top: -5px;
+  }
 
   .card-deck{
     padding-top: 20px;
@@ -72,6 +98,17 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+  #libroTitulo{
+    margin-left: 60px;
+    margin-top: -5px;
+  }
+
+  hr{
+    margin-left: 60px;
+    margin-right: 250px;
+    margin-top: -5px;
+  }
+
   .card-deck{
     margin-top: 30px;
   }
@@ -96,6 +133,17 @@
 
 
 @media (min-width: 1200px) and (max-width: 1440px) {
+
+  #libroTitulo{
+    margin-left: 120px;
+    margin-top: -5px;
+  }
+
+  hr{
+    margin-left: 120px;
+    margin-right: 93px;
+    margin-top: -5px;
+  }
 
   .card-deck{
     margin-top: -210px;
@@ -125,6 +173,17 @@
 
 @media (min-width: 1441px) and (max-width: 1799.98px) {
 
+  #libroTitulo{
+    margin-left: 150px;
+    margin-top: -5px;
+  }
+
+  hr{
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: -5px;
+  }
+
   .card-deck{
     margin-top: -215px;
   }
@@ -151,6 +210,17 @@
 
 }
 @media (min-width: 1800px) and (max-width: 2000px) {
+
+  #libroTitulo{
+    margin-left: 170px;
+    margin-top: -5px;
+  }
+
+  hr{
+    margin-left: 170px;
+    margin-right: 140px;
+    margin-top: -5px;
+  }
 
   .card-deck{
     margin-top: -235px;
