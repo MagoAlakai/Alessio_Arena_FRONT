@@ -35,7 +35,6 @@ const routes: Routes = [
       { path: 'biografia', component: BiografiaComponent },
       { path: 'agenda', component: AgendaComponent },
       { path: 'contacto', component: ContactoComponent },
-      { path: '', component: HomeComponent },
     ]
   },
 

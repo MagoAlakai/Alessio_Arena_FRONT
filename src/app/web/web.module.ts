@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from '../app-routing.module';
 
+
 import { LibrosComponent } from './libros/libros.component';
 import { DiscosComponent } from './discos/discos.component';
 import { TraduccionesComponent } from './traducciones/traducciones.component';
@@ -24,7 +25,7 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   exports: [
     HomeComponent,
