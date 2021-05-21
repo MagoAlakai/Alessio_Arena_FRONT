@@ -1,5 +1,5 @@
 /*Estilos generales*/
-#traducciones{
+#traducciones, #traduccionTitulo{
   /* backdrop-filter: blur(10px); */
   background-color: rgba(255, 255, 255, 0.705);
   /* -webkit-backdrop-filter: blur(10px); */
@@ -13,7 +13,6 @@ h1, h2{
 /*Break points para adaptar background y estilos */
 
 @media (min-width: 270px) and (max-width: 767.98px) {
-
 
   #traduccionTitulo{
     margin-left: 20px;

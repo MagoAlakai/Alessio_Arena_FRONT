@@ -1,9 +1,8 @@
-<div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow pb-4 mx-auto pl-5 pl-sm-5 pl-md-4 pl-lg-5 pl-xl-5">
+<div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow pb-4 pl-5 pl-sm-5 pl-md-4 pl-lg-5 pl-xl-5">
 
   <!-- Listado de Traducciones -->
   <div>
-    <h1 id="traduccionTitulo" class="mb-3">Traducciones</h1>
-    <hr>
+    <h1 id="traduccionTitulo" class="mb-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 border">Traducciones</h1>
     <div id="traducciones" *ngFor="let traduccion of traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
       <div class="card-body">
         <h3 class="card-title"><i>{{traduccion.titulo}}</i> {{traduccion.autor}}</h3>
