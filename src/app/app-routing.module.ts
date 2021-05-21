@@ -9,34 +9,11 @@ import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password
 import { CreateEventoComponent } from './pages/create-evento/create-evento.component';
 import { UpdateEventoComponent } from './pages/update-evento/update-evento.component';
 
-//Web - Components
-import { WebComponent } from './web/web.component';
-import { HomeComponent } from './web/home/home.component';
-import { LibrosComponent } from './web/libros/libros.component';
-import { DiscosComponent } from './web/discos/discos.component';
-import { TraduccionesComponent } from './web/traducciones/traducciones.component';
-import { BiografiaComponent } from './web/biografia/biografia.component';
-import { AgendaComponent } from './web/agenda/agenda.component';
-import { ContactoComponent } from './web/contacto/contacto.component';
 
 //Guards
 import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
-
-  //Vistas usuarios
-  {
-    path: '',
-    component: WebComponent,
-    children: [
-      { path: 'libros', component: LibrosComponent },
-      { path: 'discos', component: DiscosComponent },
-      { path: 'traducciones', component: TraduccionesComponent },
-      { path: 'biografia', component: BiografiaComponent },
-      { path: 'agenda', component: AgendaComponent },
-      { path: 'contacto', component: ContactoComponent },
-    ]
-  },
 
   //Auth
   { path: 'register', component: RegistroComponent },
@@ -51,7 +28,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
+  imports: [
+    RouterModule.forRoot(routes),
+   ],
   exports: [ RouterModule ]
 })
 export class AppRoutingModule { }

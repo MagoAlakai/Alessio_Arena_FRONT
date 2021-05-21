@@ -1,11 +1,10 @@
-<div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow pb-4 mx-auto pl-5 pl-sm-5 pl-md-4 pl-lg-5 pl-xl-5">
+<div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow pb-4  pl-5 pl-sm-5 pl-md-4 pl-lg-5 pl-xl-5">
 
   <!-- Listado de Novelas -->
   <div>
-    <h1 id="libroTitulo" class="mb-3">Novela</h1>
-    <hr>
+    <h1 id="libroTitulo" class="mb-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 border">Novela</h1>
     <div id="libros" *ngFor="let libro of libros" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
-      <img id="imagen" class="card-img-top mt-3" [src]="libro.imagen" alt="">
+      <img class="card-img-top mt-3" [src]="libro.imagen" alt="">
       <div class="card-body">
         <h3 class="card-title">{{libro.titulo}}</h3>
         <p class="card-text">{{libro.descripcion}}</p>
@@ -18,10 +17,9 @@
 
   <!-- Listado de Teatro -->
   <div>
-    <h1 id="teatroTitulo" class="mb-3">Teatro</h1>
-    <hr>
+    <h1 id="teatroTitulo" class="mb-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 border">Teatro</h1>
     <div id="teatro" *ngFor="let teatro of teatros" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
-      <img id="imagen" class="card-img-top mt-3" [src]="teatro.imagen" alt="">
+      <img class="card-img-top mt-3" [src]="teatro.imagen" alt="">
       <div class="card-body">
         <h3 class="card-title">{{teatro.titulo}}</h3>
         <p class="card-text">{{teatro.descripcion}}</p>
@@ -33,10 +31,9 @@
 
   <!-- Listado de colaboraciones -->
   <div>
-    <h1 id="compartidoTitulo" class="mb-3">Participación en libros colectivos</h1>
-    <hr>
+    <h1 id="compartidoTitulo" class="mb-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 border">Libros colectivos</h1>
     <div id="compartido" *ngFor="let libroColectivo of librosColectivos" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
-      <img id="imagen" class="card-img-top mt-3" [src]="libroColectivo.imagen" alt="">
+      <img class="card-img-top mt-3" [src]="libroColectivo.imagen" alt="">
       <div class="card-body">
         <h3 class="card-title">{{libroColectivo.titulo}}</h3>
         <p class="card-text">{{libroColectivo.descripcion}}</p>

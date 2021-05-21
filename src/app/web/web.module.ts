@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppRoutingModule } from '../app-routing.module';
-
+import { RouterModule } from '@angular/router';
+import { WebRoutingModule } from './web-routing.module';
 
 import { LibrosComponent } from './libros/libros.component';
 import { DiscosComponent } from './discos/discos.component';
@@ -25,7 +25,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule,
+    RouterModule,
+    WebRoutingModule
   ],
   exports: [
     HomeComponent,
