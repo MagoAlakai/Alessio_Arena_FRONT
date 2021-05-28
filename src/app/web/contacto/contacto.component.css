@@ -24,6 +24,7 @@
     margin-top: 20px;
   }
 
+
   .table-wrapper-scroll-y {
     display: block;
   }
@@ -31,6 +32,7 @@
   .my-custom-scrollbar {
     position: relative;
     height: 85vh;
+    width: 40vh;
     overflow: auto;
   }
 }
@@ -41,6 +43,7 @@
   #traduccionTitulo{
     margin-left: 35px !important;
     margin-top: -5px;
+    font-size: 26px;
   }
 
   .contacto{
@@ -65,6 +68,7 @@
   #traduccionTitulo{
     margin-left: 65px !important;
     margin-top: -5px;
+    font-size: 35px;
   }
 
   .contacto{
@@ -89,11 +93,17 @@
   #traduccionTitulo{
     margin-left: 100px !important;
     margin-top: -5px;
+    font-size: 40px;
   }
 
   .contacto{
     margin-left: 100px;
     margin-right: 100px;
+  }
+
+  .redes{
+    padding-left: 350px;
+    padding-right: 350px;
   }
 
   .my-custom-scrollbar {
@@ -113,6 +123,7 @@
   #traduccionTitulo{
     margin-left: 120px !important;
     margin-top: -5px;
+    font-size: 45px;
   }
 
   .contacto{
@@ -142,10 +153,17 @@
   #traduccionTitulo{
     margin-left: 150px !important;
     margin-top: -5px;
+    font-size: 50px;
   }
 
   .contacto{
     margin-left: 150px;
+    margin-right: 170px;
+  }
+
+  .redes{
+    padding-left: 500px;
+    padding-right: 500px;
   }
 
   .my-custom-scrollbar {

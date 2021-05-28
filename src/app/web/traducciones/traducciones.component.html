@@ -2,14 +2,14 @@
 
   <!-- Listado de Traducciones -->
   <div>
-    <h1 id="traduccionTitulo" class="mb-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 border">Traducciones</h1>
-    <div id="traducciones" *ngFor="let traduccion of traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+    <h1 id="traduccionTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Traducciones</h1>
+    <div id="traducciones" *ngFor="let traduccion of traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
       <div class="card-body">
         <h3 class="card-title"><i>{{traduccion.titulo}}</i> {{traduccion.autor}}</h3>
         <p class="card-text">{{traduccion.descripcion}}</p>
       </div>
       <div *ngIf="traduccion.premios" class="card-footer">
-        <small><strong>{{traduccion.premios}}</strong></small>
+       <strong>{{traduccion.premios}}</strong>
       </div>
     </div>
   </div>
