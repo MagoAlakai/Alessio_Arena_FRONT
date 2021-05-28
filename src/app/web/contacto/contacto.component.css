@@ -1,0 +1,162 @@
+
+/*Estilos generales*/
+#traducciones, #traduccionTitulo {
+  /* backdrop-filter: blur(10px); */
+  background-color: rgba(255, 255, 255, 0.705);
+  /* -webkit-backdrop-filter: blur(10px); */
+  color: black;
+}
+
+.letra{
+  font-size: 20px;
+}
+
+/*Break points para adaptar background y estilos */
+
+@media (min-width: 270px) and (max-width: 767.98px) {
+
+  #traduccionTitulo{
+    margin-left: 1px !important;
+    font-size: 26px;
+  }
+
+  .contacto{
+    margin-top: 20px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  #traduccionTitulo{
+    margin-left: 35px !important;
+    margin-top: -5px;
+  }
+
+  .contacto{
+    margin-left: 35px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 95vh;
+    overflow: auto;
+  }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #traduccionTitulo{
+    margin-left: 65px !important;
+    margin-top: -5px;
+  }
+
+  .contacto{
+    margin-left: 200px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+  #traduccionTitulo{
+    margin-left: 100px !important;
+    margin-top: -5px;
+  }
+
+  .contacto{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .my-custom-scrollbar {
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+
+@media (min-width: 1441px) and (max-width: 1799.98px) {
+
+
+  #traduccionTitulo{
+    margin-left: 120px !important;
+    margin-top: -5px;
+  }
+
+  .contacto{
+    margin-left: 120px;
+    margin-right: 135px;
+  }
+
+  .redes{
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+
+  #traduccionTitulo{
+    margin-left: 150px !important;
+    margin-top: -5px;
+  }
+
+  .contacto{
+    margin-left: 150px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+

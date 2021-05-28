@@ -1,0 +1,192 @@
+
+/*Estilos generales*/
+#libros, #compartido, #teatro, #libroTitulo, #teatroTitulo, #compartidoTitulo {
+  /* backdrop-filter: blur(10px); */
+  background-color: rgba(255, 255, 255, 0.705);
+  /* -webkit-backdrop-filter: blur(10px); */
+  color: black;
+}
+
+/*Break points para adaptar background y estilos */
+
+@media (min-width: 270px) and (max-width: 767.98px) {
+
+  #libroTitulo, #teatroTitulo, #compartidoTitulo{
+    margin-left: 1px !important;
+    font-size: 26px;
+  }
+
+  .card{
+    margin-top: 20px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  #libroTitulo, #teatroTitulo, #compartidoTitulo{
+    margin-left: 35px !important;
+    margin-top: -5px;
+  }
+
+  .card-text{
+    padding-top: 10px;
+  }
+
+  #libroTitulo{
+    margin-top:20px;
+  }
+
+  .card{
+    margin-left: 35px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .card-img-top{
+    max-width: 150px;
+    max-height: 300px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 95vh;
+    overflow: auto;
+  }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #libroTitulo, #teatroTitulo, #compartidoTitulo{
+    margin-left: 65px !important;
+    margin-top: -5px;
+  }
+
+  .card-deck{
+    margin-top: 30px;
+  }
+
+  .card{
+    margin-left: 200px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+  #libroTitulo, #teatroTitulo, #compartidoTitulo{
+    margin-left: 100px !important;
+    margin-top: -5px;
+  }
+
+  .card{
+    margin-left: 100px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+
+@media (min-width: 1441px) and (max-width: 1799.98px) {
+
+
+  #libroTitulo, #teatroTitulo, #compartidoTitulo{
+    margin-left: 120px !important;
+    margin-top: -5px;
+  }
+
+  .card{
+    margin-left: 120px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+
+  #libroTitulo, #teatroTitulo, #compartidoTitulo{
+    margin-left: 150px !important;
+    margin-top: -5px;
+  }
+
+  .card{
+    margin-left: 150px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+

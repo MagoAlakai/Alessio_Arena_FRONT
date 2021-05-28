@@ -1,13 +1,10 @@
+
 /*Estilos generales*/
-#traducciones, #traduccionTitulo{
+#traducciones, #traduccionTitulo {
   /* backdrop-filter: blur(10px); */
   background-color: rgba(255, 255, 255, 0.705);
   /* -webkit-backdrop-filter: blur(10px); */
   color: black;
-}
-
-h1, h2{
-  color: #686868;
 }
 
 /*Break points para adaptar background y estilos */
@@ -15,30 +12,16 @@ h1, h2{
 @media (min-width: 270px) and (max-width: 767.98px) {
 
   #traduccionTitulo{
-    margin-left: 20px;
-    margin-top: -2px;
-  }
-
-  hr{
-    display:none;
-  }
-
-  .card-deck{
-    margin-top: 30px;
+    margin-left: 1px !important;
+    font-size: 26px;
   }
 
   .card{
-    margin-left: 15px;
+    margin-top: 20px;
   }
 
   .table-wrapper-scroll-y {
     display: block;
-  }
-
-  .card-img-top{
-    max-width: 150px;
-    max-height: 300px;
-    margin-left: 20px;
   }
 
   .my-custom-scrollbar {
@@ -51,20 +34,9 @@ h1, h2{
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-
   #traduccionTitulo{
-    margin-left: 30px;
+    margin-left: 35px !important;
     margin-top: -5px;
-  }
-
-  hr{
-    margin-left: 30px;
-    margin-right: 310px;
-    margin-top: -5px;
-  }
-
-  .card-deck{
-    padding-top: 20px;
   }
 
   .card-text{
@@ -72,7 +44,7 @@ h1, h2{
   }
 
   .card{
-    margin-left: 27px;
+    margin-left: 35px;
   }
 
   .table-wrapper-scroll-y {
@@ -87,7 +59,7 @@ h1, h2{
 
   .my-custom-scrollbar {
     position: relative;
-    height: 85vh;
+    height: 95vh;
     overflow: auto;
   }
 
@@ -97,13 +69,7 @@ h1, h2{
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
   #traduccionTitulo{
-    margin-left: 60px;
-    margin-top: -5px;
-  }
-
-  hr{
-    margin-left: 60px;
-    margin-right: 250px;
+    margin-left: 65px !important;
     margin-top: -5px;
   }
 
@@ -111,10 +77,18 @@ h1, h2{
     margin-top: 30px;
   }
 
+  .card{
+    margin-left: 200px;
+  }
+
   .card-img-top{
     max-width: 200px;
     max-height: 400px;
     margin-left: 20px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
   }
 
   .my-custom-scrollbar {
@@ -123,32 +97,18 @@ h1, h2{
     overflow: auto;
   }
 
-  .table-wrapper-scroll-y {
-    display: block;
-  }
-
 }
 
 
 @media (min-width: 1200px) and (max-width: 1440px) {
 
   #traduccionTitulo{
-    margin-left: 120px;
+    margin-left: 100px !important;
     margin-top: -5px;
-  }
-
-  hr{
-    margin-left: 120px;
-    margin-right: 93px;
-    margin-top: -5px;
-  }
-
-  .card-deck{
-    margin-top: -210px;
   }
 
   .card{
-    margin-left: 120px;
+    margin-left: 100px;
   }
 
   .card-img-top{
@@ -158,9 +118,7 @@ h1, h2{
   }
 
   .my-custom-scrollbar {
-    position: relative;
     height: 85vh;
-    width: 180vh;
     overflow: auto;
   }
 
@@ -172,23 +130,14 @@ h1, h2{
 
 @media (min-width: 1441px) and (max-width: 1799.98px) {
 
+
   #traduccionTitulo{
-    margin-left: 150px;
+    margin-left: 120px !important;
     margin-top: -5px;
-  }
-
-  hr{
-    margin-left: 150px;
-    margin-right: 100px;
-    margin-top: -5px;
-  }
-
-  .card-deck{
-    margin-top: -215px;
   }
 
   .card{
-    margin-left: 150px;
+    margin-left: 120px;
   }
 
   .card-img-top{
@@ -211,22 +160,12 @@ h1, h2{
 @media (min-width: 1800px) and (max-width: 2000px) {
 
   #traduccionTitulo{
-    margin-left: 170px;
+    margin-left: 150px !important;
     margin-top: -5px;
-  }
-
-  hr{
-    margin-left: 170px;
-    margin-right: 140px;
-    margin-top: -5px;
-  }
-
-  .card-deck{
-    margin-top: -235px;
   }
 
   .card{
-    margin-left: 170px;
+    margin-left: 150px;
   }
 
   .card-img-top{
@@ -246,3 +185,192 @@ h1, h2{
   }
 
 }
+
+
+/*Estilos generales*/
+#traducciones, #traduccionTitulo {
+  /* backdrop-filter: blur(10px); */
+  background-color: rgba(255, 255, 255, 0.705);
+  /* -webkit-backdrop-filter: blur(10px); */
+  color: black;
+}
+
+/*Break points para adaptar background y estilos */
+
+@media (min-width: 270px) and (max-width: 767.98px) {
+
+  #traduccionTitulo{
+    margin-left: 1px !important;
+    font-size: 26px;
+  }
+
+  .card{
+    margin-top: 20px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  #traduccionTitulo{
+    margin-left: 35px !important;
+    margin-top: -5px;
+  }
+
+  .card-text{
+    padding-top: 10px;
+  }
+
+  .card{
+    margin-left: 35px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .card-img-top{
+    max-width: 150px;
+    max-height: 300px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 95vh;
+    overflow: auto;
+  }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #traduccionTitulo{
+    margin-left: 65px !important;
+    margin-top: -5px;
+  }
+
+  .card-deck{
+    margin-top: 30px;
+  }
+
+  .card{
+    margin-left: 200px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+  #traduccionTitulo{
+    margin-left: 100px !important;
+    margin-top: -5px;
+  }
+
+  .card{
+    margin-left: 100px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+
+@media (min-width: 1441px) and (max-width: 1799.98px) {
+
+
+  #traduccionTitulo{
+    margin-left: 120px !important;
+    margin-top: -5px;
+  }
+
+  .card{
+    margin-left: 120px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+@media (min-width: 1800px) and (max-width: 2000px) {
+
+  #traduccionTitulo{
+    margin-left: 150px !important;
+    margin-top: -5px;
+  }
+
+  .card{
+    margin-left: 150px;
+  }
+
+  .card-img-top{
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 20px;
+  }
+
+  .my-custom-scrollbar {
+    position: relative;
+    height: 85vh;
+    overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+    display: block;
+  }
+
+}
+
