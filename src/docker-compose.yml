@@ -1,0 +1,28 @@
+version: '3.9'
+
+## docker-compose -p alessio-arena-www up -d
+## docker-compose -p alessio-arena-www down
+
+services:
+
+    alessio-arena-www:
+        container_name: alessio-arena-www
+        image: nginx:alpine
+        environment:
+          VIRTUAL_HOST: alessio-arena-www.internal.local
+          VIRTUAL_PORT: 443
+          VIRTUAL_PROTO: https
+        expose:
+            - 443
+        volumes:
+            - ./:/usr/share/nginx/html
+            - ./conf.d/default.conf:/etc/nginx/conf.d/default.conf
+            - ./ssl/certs/localhost.crt:/etc/ssl/certs/localhost.crt
+            - ./ssl/private/localhost.key:/etc/ssl/private/localhost.key
+        networks:
+            - nginx-proxy
+            
+networks:
+  nginx-proxy:
+    name: nginx-proxy
+    external: true
