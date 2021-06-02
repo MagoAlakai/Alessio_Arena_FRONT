@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href /angular-app/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -26,6 +26,7 @@
     "rxjs": "~6.3.3",
     "sweetalert2": "^10.16.7",
     "tslib": "^1.9.0",
+    "yarn": "^1.22.10",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
