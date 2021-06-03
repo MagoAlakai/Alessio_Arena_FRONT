@@ -7,7 +7,7 @@ import { UsuarioModel } from '../models/usuario.model';
 })
 export class AuthService {
 
-  private url:string = 'http://127.0.0.1:8000/api/';
+  private url:string = 'https://alessio-arena-api.internal.local/api/';
   public userToken:string;
   public user;
 
@@ -18,12 +18,30 @@ export class AuthService {
   //REGISTER
   register = async(form:any):Promise<any> =>{
     console.log(form);
-    return await this.httpClient.post(`${this.url}register`, form).toPromise() as Promise<any>;
+
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        'Access-Control-Request-Headers': '*',
+        'Access-Control-Allow-Origin': '*'
+      })
+    };
+
+    return await this.httpClient.post(`${this.url}register`, form, httpOptions).toPromise() as Promise<any>;
   }
 
   // LOGIN
   getToken = async(loginUser:UsuarioModel):Promise<any> =>{
-    return await this.httpClient.post(`${this.url}login`, loginUser).toPromise();
+
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        'Access-Control-Request-Headers': '*',
+        'Access-Control-Allow-Origin': '*'
+      })
+    };
+
+    return await this.httpClient.post(`${this.url}login`, loginUser, httpOptions).toPromise();
   }
 
   // LOGOUT
@@ -32,7 +50,8 @@ export class AuthService {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${token}`
+        'Authorization': `Bearer ${token}`,
+        'Access-Control-Allow-Origin': '*'
       })
     };
     return await this.httpClient.get(`${this.url}logout`, httpOptions).toPromise();

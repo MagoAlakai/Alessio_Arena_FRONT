@@ -47,6 +47,7 @@ export class RegistroComponent implements OnInit {
       //Llamada Ajax para registro
       this.authService.register(form.value)
           .then(resp => {
+            console.log(resp);
             this.token = resp.token;
             this.usuario = resp.user;
 
@@ -58,7 +59,7 @@ export class RegistroComponent implements OnInit {
               confirmButtonText: 'Ok',
             });
             this.router.navigateByUrl('/login');
-          }).catch(error => console.log(error.error.errors.email[0]));
+          }).catch(error => console.log(error.message));
     }else{
       return;
     }
