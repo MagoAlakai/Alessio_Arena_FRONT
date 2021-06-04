@@ -1,7 +1,7 @@
 version: '3.9'
 
-## docker-compose -p alessio-arena-www up -d
-## docker-compose -p alessio-arena-www down
+## docker-compose -p alessio-arena-www-stack up -d
+## docker-compose -p alessio-arena-www-stack down
 
 services:
 

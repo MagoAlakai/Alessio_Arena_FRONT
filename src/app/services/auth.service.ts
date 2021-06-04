@@ -7,7 +7,8 @@ import { UsuarioModel } from '../models/usuario.model';
 })
 export class AuthService {
 
-  private url:string = 'https://alessio-arena-api.internal.local/api/';
+  private origin:string = 'https://alessio-arena-api.internal.local';
+  private url:string = `${this.origin}/api/`;
   public userToken:string;
   public user;
 
@@ -21,9 +22,7 @@ export class AuthService {
 
     const httpOptions = {
       headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-        'Access-Control-Request-Headers': '*',
-        'Access-Control-Allow-Origin': '*'
+        'Content-Type': 'application/json'
       })
     };
 
@@ -35,9 +34,7 @@ export class AuthService {
 
     const httpOptions = {
       headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-        'Access-Control-Request-Headers': '*',
-        'Access-Control-Allow-Origin': '*'
+        'Content-Type': 'application/json'
       })
     };
 
@@ -50,8 +47,7 @@ export class AuthService {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${token}`,
-        'Access-Control-Allow-Origin': '*'
+        'Authorization': `Bearer ${token}`
       })
     };
     return await this.httpClient.get(`${this.url}logout`, httpOptions).toPromise();
