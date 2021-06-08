@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { environment } from '../../environments/environment';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Evento } from './../models/Evento';
 
@@ -9,7 +8,8 @@ import { Evento } from './../models/Evento';
 })
 export class EventosService {
 
-  private url = environment.urlEndPoint;
+  private origin:string = 'https://alessio-arena-api.internal.local';
+  private url:string = `${this.origin}/api/`;
   public token:string;
 
   constructor(

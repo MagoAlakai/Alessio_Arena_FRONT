@@ -22,7 +22,7 @@ export class AuthService {
 
     const httpOptions = {
       headers: new HttpHeaders({
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       })
     };
 
@@ -34,7 +34,7 @@ export class AuthService {
 
     const httpOptions = {
       headers: new HttpHeaders({
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       })
     };
 
@@ -47,7 +47,7 @@ export class AuthService {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${token}`
+        'Authorization': `Bearer ${token}`,
       })
     };
     return await this.httpClient.get(`${this.url}logout`, httpOptions).toPromise();
