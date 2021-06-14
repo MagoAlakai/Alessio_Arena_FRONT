@@ -20,10 +20,6 @@ p{
     font-size: 26px;
   }
 
-  .card{
-    margin-top: 20px;
-  }
-
   .table-wrapper-scroll-y {
     display: block;
   }
@@ -143,12 +139,13 @@ p{
 
 
   #libroTitulo, #teatroTitulo, #compartidoTitulo{
-    margin-left: 120px !important;
+    margin-left: 140px !important;
     margin-top: -5px;
     font-size: 45px;
+    max-width: 156vh;
   }
 
-  .card{
+  .layout{
     margin-left: 120px;
   }
 
@@ -198,4 +195,3 @@ p{
   }
 
 }
-

@@ -17,7 +17,7 @@
 
   <!-- Listado de Teatro -->
   <div class="mb-5">
-    <h1 id="teatroTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Teatro</h1>
+    <h1 id="teatroTitulo" class="border-bottom mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Teatro</h1>
     <div id="teatro" *ngFor="let teatro of teatros" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
       <img class="card-img-top mt-3" [src]="teatro.imagen" alt="">
       <div class="card-body">
@@ -30,7 +30,7 @@
   </div>
 
   <!-- Listado de colaboraciones -->
-  <div>
+  <div class="">
     <h1 id="compartidoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Libros colectivos</h1>
     <div id="compartido" *ngFor="let libroColectivo of librosColectivos" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
       <img class="card-img-top mt-3" [src]="libroColectivo.imagen" alt="">

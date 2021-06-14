@@ -2,14 +2,15 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Evento } from './../models/Evento';
 
+import { environment } from 'src/environments/environment';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class EventosService {
-
-  private origin:string = 'https://alessio-arena-api.internal.local';
-  private url:string = `${this.origin}/api/`;
+  
+  private url:string = `${environment.fqdn}${environment.urlEndPoint}`;
   public token:string;
 
   constructor(
