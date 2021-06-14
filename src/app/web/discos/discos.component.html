@@ -1,14 +1,14 @@
-<div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow pb-4 pl-5 pl-sm-5 pl-md-4 pl-lg-5 pl-xl-5">
+<div class="card-deck table-wrapper-scroll-y my-custom-scrollbar animated fadeIn slow mt-3 pb-4 pl-5 pl-sm-5 pl-md-4 pl-lg-5 pl-xl-5">
 
   <!-- Listado de Discos solo -->
   <div class="mb-5">
-    <h1 id="libroTitulo" class="border-bottom mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Discografía</h1>
+    <h1 id="libroTitulo" class="border-bottom pt-2 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Discografía</h1>
 
     <div class="layout">
 
-      <div class="d-flex">
-        <div id="libros" *ngFor="let disco of discos" class="card border-0 col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 mb-4">
-          <img class="card-img-top mt-3" [src]="disco.imagen" alt="">
+      <div class="d-flex row">
+        <div id="libros" *ngFor="let disco of discos" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <a href={{disco.link}} target="_blank"><img class="card-img-top pt-2" [src]="disco.imagen" alt=""></a>
           <div class="card-body">
             <a href={{disco.link}} target="_blank"><h3 class="card-title">{{disco.titulo}}</h3></a>
           </div>
@@ -18,9 +18,9 @@
         </div>
       </div>
 
-      <div class="d-flex">
-        <div id="libros" *ngFor="let disco of discos1" class="card border-0 col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 mb-4">
-          <img class="card-img-top mt-3" [src]="disco.imagen" alt="">
+      <div class="d-flex row">
+        <div id="libros" *ngFor="let disco of discos1" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <a href={{disco.link}} target="_blank"><img class="card-img-top pt-2" [src]="disco.imagen" alt=""></a>
           <div class="card-body">
             <a href={{disco.link}} target="_blank"><h3 class="card-title">{{disco.titulo}}</h3></a>
           </div>
@@ -29,10 +29,7 @@
           </div>
         </div>
       </div>
-
     </div>
-
-  </div>
 
   <!-- Listado de Discos con Giancarlo Arena & Clara Peya-->
   <div class="mb-5">
@@ -40,9 +37,9 @@
 
     <div class="layout">
 
-      <div class="d-flex">
-        <div id="libros" *ngFor="let disco of discoGiancarlo" class="card border-0 col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 mb-4">
-          <img class="card-img-top mt-3" [src]="disco.imagen" alt="">
+      <div class="d-flex row">
+        <div id="libros" *ngFor="let disco of discoGiancarlo" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <a href={{disco.link}} target="_blank"><img class="card-img-top pt-2" [src]="disco.imagen" alt=""></a>
           <div class="card-body">
             <a href={{disco.link}} target="_blank"><h3 class="card-title">{{disco.titulo}}</h3></a>
           </div>
@@ -51,21 +48,21 @@
           </div>
         </div>
 
-        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-6 col-lg-5 col-xl-5 mb-4">
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
           <div class="card-body">
-            <div class="text-center mt-3">
+            <div class="text-center pt-2">
               <a href='https://open.spotify.com/album/5n9Krr3RZGmBwEnj7t3Akt?si=SQzVsKfiTtCKG81Ei4ISKg&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tot aquest silenci (2012)</h3></a>
             </div>
 
-            <div class="text-center mt-3">
+            <div class="text-center pt-2">
               <a href='https://open.spotify.com/album/5BOp6A0Abr52uCt0tfuX6A?si=sLBJm7r4QUiCar2raE2F8A&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tot aquest soroll (2013)</h3></a>
             </div>
 
-            <div class="text-center mt-3">
+            <div class="text-center pt-2">
               <a href='https://open.spotify.com/album/7EvXqd6Y6ti8Uu6t3RvfR6?si=zgzxKDAIQMuajQmQ2saFQQ&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Espiral (2014)</h3></a>
             </div>
 
-            <div class="text-center mt-3">
+            <div class="text-center pt-2">
               <a href='https://open.spotify.com/album/4fSbjbFr5mw6w8Fh1BUW28?si=TE4YP4H_Tjew40KrjeJNAg&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tierra del hielo (2018)
               </h3></a>
             </div>
@@ -78,7 +75,7 @@
 
       </div>
     </div>
-
+  </div>
   </div>
 </div>
 

@@ -16,8 +16,10 @@ p{
 @media (min-width: 270px) and (max-width: 767.98px) {
 
   #libroTitulo, #teatroTitulo, #compartidoTitulo{
-    margin-left: 1px !important;
+    margin-left: -15px !important;
     font-size: 26px;
+    max-width:35.50vh;
+    vertical-align: middle !important;
   }
 
   .table-wrapper-scroll-y {
@@ -26,7 +28,8 @@ p{
 
   .my-custom-scrollbar {
     position: relative;
-    height: 85vh;
+    height: 90vh;
+    width: 45vh;
     overflow: auto;
   }
 }
@@ -38,23 +41,17 @@ p{
     margin-left: 35px !important;
     margin-top: -5px;
     font-size: 26px;
+    max-width:73vh;
   }
 
-  .card-text{
-    padding-top: 10px;
-  }
-
-  #libroTitulo{
-    margin-top:20px;
-  }
-
-  .card{
+  .layout{
     margin-left: 35px;
   }
 
   .table-wrapper-scroll-y {
     display: block;
   }
+
 
   .card-img-top{
     max-width: 150px;
@@ -65,6 +62,7 @@ p{
   .my-custom-scrollbar {
     position: relative;
     height: 95vh;
+    width: 87vh;
     overflow: auto;
   }
 
@@ -83,8 +81,8 @@ p{
     margin-top: 30px;
   }
 
-  .card{
-    margin-left: 200px;
+  .layout{
+    margin-left: 100px;
   }
 
   .card-img-top{
@@ -109,13 +107,14 @@ p{
 @media (min-width: 1200px) and (max-width: 1440px) {
 
   #libroTitulo, #teatroTitulo, #compartidoTitulo{
-    margin-left: 100px !important;
+    margin-left: 132px !important;
     margin-top: -5px;
     font-size: 40px;
+    max-width: 158vh;
   }
 
-  .card{
-    margin-left: 100px;
+  .layout{
+    margin-left: 120px;
   }
 
   .card-img-top{
@@ -139,10 +138,10 @@ p{
 
 
   #libroTitulo, #teatroTitulo, #compartidoTitulo{
-    margin-left: 140px !important;
+    margin-left: 120px !important;
     margin-top: -5px;
     font-size: 45px;
-    max-width: 156vh;
+    max-width: 158vh;
   }
 
   .layout{
@@ -169,13 +168,14 @@ p{
 @media (min-width: 1800px) and (max-width: 2000px) {
 
   #libroTitulo, #teatroTitulo, #compartidoTitulo{
-    margin-left: 150px !important;
+    margin-left: 208px !important;
     margin-top: -5px;
     font-size: 50px;
+    max-width: 148.50vh;
   }
 
-  .card{
-    margin-left: 150px;
+  .layout{
+    margin-left: 190px;
   }
 
   .card-img-top{
