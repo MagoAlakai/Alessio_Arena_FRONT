@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class EventosService {
-  
+
   private url:string = `${environment.fqdn}${environment.urlEndPoint}`;
   public token:string;
 
@@ -19,15 +19,7 @@ export class EventosService {
 
   getEventos = async():Promise<Evento[]>=>{
 
-    this.token = localStorage.getItem('token');
-    const httpOptions = {
-      headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${this.token}`
-      })
-    };
-
-    return await this.httpClient.get(`${this.url}eventos`, httpOptions).toPromise() as Promise<Evento[]>;
+    return await this.httpClient.get(`${this.url}eventos`).toPromise() as Promise<Evento[]>;
   }
 
   getEventoById = async(id: string | number | null):Promise<Evento>=>{
@@ -52,6 +44,8 @@ export class EventosService {
         'Authorization': `Bearer ${this.token}`
       })
     };
+
+    console.log(this.token);
 
     return await this.httpClient.post(`${this.url}eventos/create`, evento, httpOptions).toPromise() as Promise<Object>;
   }

@@ -72,7 +72,7 @@
 
             <!-- MAIN CONTENT-->
             <div class="main-content container">
-                        <div class="d-flex justify-content-center">
+                        <div class="justify-content-center">
                             <div id="table">
                                 <h2 class="title-1 text-center mb-4">Listado de Eventos</h2>
                                 <div class="d-flex justify-content-center pb-4">
@@ -84,7 +84,9 @@
                                         <th>Fecha</th>
                                         <th>Hora</th>
                                         <th>Nombre</th>
+                                        <th>Descripción</th>
                                         <th>Lugar</th>
+                                        <th>Map</th>
                                         <th>Precio</th>
                                         <th>Info</th>
                                         <th>Comprar</th>
@@ -96,7 +98,9 @@
                                         <td>{{evento.date}}</td>
                                         <td>{{evento.hour}}</td>
                                         <td>{{evento.name}}</td>
+                                        <td>{{evento.descripcion}}</td>
                                         <td>{{evento.place}}</td>
+                                        <td>{{evento.link_place}}</td>
                                         <td>{{evento.price}}</td>
                                         <td>{{evento.link_external}}</td>
                                         <td>{{evento.link_shop}}</td>

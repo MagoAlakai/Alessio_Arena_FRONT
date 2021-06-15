@@ -33,10 +33,12 @@ export class UpdateEventoComponent implements OnInit {
       date: ['', Validators.required],
       hour: ['', Validators.required],
       name: ['', Validators.required],
+      descripcion: '',
       place: ['', Validators.required],
+      link_place: '',
       price: ['', Validators.required],
-      link_external: ['', Validators.required],
-      link_shop: ['', Validators.required],
+      link_external: '',
+      link_shop: '',
     })
   }
 
