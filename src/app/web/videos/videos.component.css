@@ -25,6 +25,16 @@ p{
     display: block;
   }
 
+  #libros, #compartido, #teatro {
+    max-width:35.7vh;
+    margin-left: -1px !important;
+    /*  */
+  }
+
+  .card-body{
+    min-width:35.7vh;
+  }
+
   .my-custom-scrollbar {
     position: relative;
     height: 90vh;
@@ -43,25 +53,28 @@ p{
     max-width:73vh;
   }
 
-  .layout{
-    margin-left: 35px;
-  }
-
   .table-wrapper-scroll-y {
     display: block;
   }
 
 
-  .card-img-top{
-    max-width: 150px;
-    max-height: 300px;
-    margin-left: 20px;
+  #libros, #compartido, #teatro {
+    max-width:63vh;
+    /*  */
+  }
+
+  .layout{
+    margin-left: 42px;
+  }
+
+  .card-body{
+    min-width:63vh;
   }
 
   .my-custom-scrollbar {
     position: relative;
     height: 95vh;
-    width: 87vh;
+    width: 68vh;
     overflow: auto;
   }
 
@@ -113,13 +126,11 @@ p{
   }
 
   .layout{
-    margin-left: 120px;
+    margin-left: 138px;
   }
 
   .card-img-top{
-    max-width: 200px;
-    max-height: 400px;
-    margin-left: 20px;
+    min-width: 478px;
   }
 
   .my-custom-scrollbar {
@@ -144,13 +155,11 @@ p{
   }
 
   .layout{
-    margin-left: 120px;
+    margin-left: 126px;
   }
 
   .card-img-top{
-    max-width: 200px;
-    max-height: 400px;
-    margin-left: 20px;
+    min-width: 554px;
   }
 
   .my-custom-scrollbar {
@@ -174,13 +183,11 @@ p{
   }
 
   .layout{
-    margin-left: 190px;
+    margin-left: 214px;
   }
 
   .card-img-top{
-    max-width: 200px;
-    max-height: 400px;
-    margin-left: 20px;
+    min-width: 678px;
   }
 
   .my-custom-scrollbar {
