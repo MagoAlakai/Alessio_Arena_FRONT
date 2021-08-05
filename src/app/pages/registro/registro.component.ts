@@ -59,7 +59,7 @@ export class RegistroComponent implements OnInit {
               confirmButtonText: 'Ok',
             });
             this.router.navigateByUrl('/login');
-          }).catch(error => console.log(error.message));
+          }).catch(error => console.log(error));
     }else{
       return;
     }

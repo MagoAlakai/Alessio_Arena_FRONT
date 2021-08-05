@@ -11,6 +11,7 @@ import { AgendaComponent } from './agenda/agenda.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { WebComponent } from './web.component';
 import { HomeComponent } from './home/home.component';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomeComponent } from './home/home.component';
     AgendaComponent,
     ContactoComponent,
     WebComponent,
+    VideosComponent,
   ],
   imports: [
     CommonModule,

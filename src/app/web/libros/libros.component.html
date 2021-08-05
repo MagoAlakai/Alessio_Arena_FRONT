@@ -30,7 +30,7 @@
   </div>
 
   <!-- Listado de colaboraciones -->
-  <div class="">
+  <div class="mb-5">
     <h1 id="compartidoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Libros colectivos</h1>
     <div id="compartido" *ngFor="let libroColectivo of librosColectivos" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
       <img class="card-img-top mt-3" [src]="libroColectivo.imagen" alt="">
@@ -39,6 +39,20 @@
         <p class="card-text">{{libroColectivo.descripcion}}</p>
       <div *ngIf="libroColectivo.premios" class="card-footer">
         <strong>{{libroColectivo.premios}}</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Listado de Traducciones -->
+  <div class="mb-5">
+    <h1 id="compartidoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Traducciones</h1>
+    <div id="traducciones" *ngFor="let traduccion of traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title"><i>{{traduccion.titulo}}</i> {{traduccion.autor}}</h3>
+        <p class="card-text">{{traduccion.descripcion}}</p>
+      </div>
+      <div *ngIf="traduccion.premios" class="card-footer">
+       <strong>{{traduccion.premios}}</strong>
       </div>
     </div>
   </div>
