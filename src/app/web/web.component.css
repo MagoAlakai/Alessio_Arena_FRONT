@@ -1,9 +1,14 @@
 /*Estilos generales*/
 
-a{
+a, select{
   font-size: 22px;
   margin-bottom: -16px;
   text-decoration: none;
+  color: #010101;
+}
+
+option{
+  font-size: 22px;
   color: #010101;
 }
 

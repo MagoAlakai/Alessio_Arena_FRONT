@@ -38,8 +38,8 @@
       </li>
 
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <select #langselect (change)="translate.use(langselect.value)">
-          <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{ lang }}</option>
+        <select class="nav-link ml-2 ml-sm-2 ml-md-4" #langselect (change)="translate.use(langselect.value)">
+          <option id="option" *ngFor="let lang of translate.getLangs()" [value]="lang">{{ lang }}</option>
         </select>
       </li>
 

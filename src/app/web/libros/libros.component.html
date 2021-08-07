@@ -2,15 +2,71 @@
 
   <!-- Listado de Novelas -->
   <div class="mb-5">
-    <h1 id="libroTitulo" class="border-bottom mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Novela</h1>
-    <div id="libros" *ngFor="let libro of libros" class="card border-0 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
-      <img class="card-img-top mt-3" [src]="libro.imagen" alt="">
+    <h1 id="libroTitulo" class="border-bottom mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">{{ 'genero.novela' | translate }}</h1>
+
+    <div id="libros" class="card border-0 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+      <img class="card-img-top mt-3" src="{{ 'libros.ninna.imagen' | translate }}" alt="">
       <div class="card-body">
-        <h3 class="card-title">{{libro.titulo}}</h3>
-        <p class="card-text">{{libro.descripcion}}</p>
+        <h3 class="card-title">{{ 'libros.ninna.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'libros.ninna.descripcion' | translate }}</p>
       </div>
-      <div *ngIf="libro.premios" class="card-footer">
-        <strong>{{libro.premios}}</strong>
+      <div class="card-footer">
+        <strong>{{ 'libros.ninna.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="libros" class="card border-0 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+      <img class="card-img-top mt-3" src="{{ 'libros.notte.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'libros.notte.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'libros.notte.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'libros.notte.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="libros" class="card border-0 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+      <img class="card-img-top mt-3" src="{{ 'libros.letteratura.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'libros.letteratura.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'libros.letteratura.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'libros.letteratura.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="libros" class="card border-0 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+      <img class="card-img-top mt-3" src="{{ 'libros.casa.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'libros.casa.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'libros.casa.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'libros.casa.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="libros" class="card border-0 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+      <img class="card-img-top mt-3" src="{{ 'libros.cuore.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'libros.cuore.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'libros.cuore.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'libros.cuore.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="libros" class="card border-0 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4">
+      <img class="card-img-top mt-3" src="{{ 'libros.infanzia.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'libros.infanzia.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'libros.infanzia.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'libros.infanzia.premios' | translate }}</strong>
       </div>
     </div>
   </div>
@@ -18,15 +74,18 @@
   <!-- Listado de Teatro -->
   <div class="mb-5">
     <h1 id="teatroTitulo" class="border-bottom mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Teatro</h1>
-    <div id="teatro" *ngFor="let teatro of teatros" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
-      <img class="card-img-top mt-3" [src]="teatro.imagen" alt="">
+
+    <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src='teatro.aucelle.imagen' alt="">
       <div class="card-body">
-        <h3 class="card-title">{{teatro.titulo}}</h3>
-        <p class="card-text">{{teatro.descripcion}}</p>
-      <div *ngIf="teatro.premios" class="card-footer">
-        <strong>{{teatro.premios}}</strong>
+        <h3 class="card-title">{{ 'teatro.aucelle.titulo' }}</h3>
+        <p class="card-text">{{'teatro.aucelle.descripcion'}}</p>
+      <div class="card-footer">
+        <strong>{{'teatro.aucelle.premios'}}</strong>
       </div>
     </div>
+
+
   </div>
 
   <!-- Listado de colaboraciones -->

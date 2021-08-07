@@ -7,6 +7,97 @@
     "biografia": "Biografia",
     "agenda": "Diario",
     "contacto": "Contatto"
+  },
+
+  "genero" : {
+    "novela" : "Romanzi",
+    "teatro" : "Teatro",
+    "traducciones" : "Traduzioni",
+    "colectivos" : "Participazioni in raccolte"
+  },
+
+  "libros" : {
+    "ninna" :{
+      "titulo" : "Ninna Nanna Delle Mosche (Fandango Libri, 2021)",
+      "descripcion": "Negli anni venti del Novecento, il nord del Cile è la terra promessa per una comunità di emigranti italiani. Sono minatori che hanno colonizzato i villaggi di quella sterminata pampa impiegati nelle raffinerie per l'estrazione del salnitro. Il loro è un lavoro che li chiude sottoterra e spesso li uccide, di svaghi ne hanno pochi, un po' di alcol, molta nostalgia. Gregorio Zafarone è l'operaio che all'officina Porvenir scrive per i suoi compagni analfabeti le lettere da mandare alle famiglie in Italia. Ma le sue, di lettere, quelle indirizzate a Berto Macaluso, giovane fornaio di Palmira, il paese nell'entroterra lucano di cui sono entrambi originari, non hanno mai ricevuto risposta. Gregorio, bruciato dal sole e dalla mancanza, non smette di chiedersi cosa possa essergli successo. Fino al giorno in cui tutto cambia. Le parole per il suo amore proibito raggiungono Berto, chiuse in una busta in cui è intrappolata una mosca e lo spingono a partire per il Cile e a lasciarsi alle spalle tutto quello che conosce. A seguire le tracce del fornaio ci sarà la moglie, Serafina Canaria, ninnanannara la cui voce concilia il sonno e l'amore.Ninna nanna delle mosche è una storia affidata a personaggi in transito tra mondi lontani: donne che attraversano le Ande in groppa a una mula, pellegrini danzanti del deserto dell'Atacama e un circo di diseredati si uniranno in un viaggio che sembra non avere mai fine, in un'avventura di desideri inconfessabili. Un romanzo di amore e di rivoluzione che porterà i lettori ai confini del mondo, nel fuoco vivo delle passioni.",
+      "imagen": "/assets/images/mosche.png",
+      "premios": ""
+    },
+    "notte" :{
+      "titulo" : "La notte non vuole venire (Fandango Libri, 2018)",
+      "descripcion": "È l'8 giugno del 1953 e il transatlantico Homeland ha appena attraversato lo stretto di Gibilterra, raggiungendo il punto del Mediterraneo che corrisponde alle coordinate latitudine 37' 21' Nord, longitudine 4' 30' Est. Sono le stesse che saranno riportate sul certificato di morte della più celebre passeggera a bordo, Griselda Andreatini, per tutti coloro che ne hanno amata la voce oltreoceano semplicemente donna Gilda, la Mignonette. Quasi settantenne, consumata dall'alcol e dalla gelosia, donna Gilda compie il suo ultimo viaggio verso Napoli, città che ha cantato per mezzo secolo e che l'ha resa la regina degli emigranti. A vegliarla Esterina Malacarne, per tutti semplicemente la guagliona, l'assistente dai capelli bianchi e il corpo di bambina che Gilda si è portata dall'Italia, una ragazza dei quartieri popolari ma istruita che le ha sempre fatto da interprete per via di un padre portiere al consolato americano. Mentre Gilda dorme nel suo ultimo letto, la guagliona riannoda i fili del passato vissuto insieme, l'arrivo a Ellis Island, la vita di lussi e teatri a New York, l'incontro con Federico Garcia Lorca, il suo rocambolesco tentato suicidio e il carteggio tra il poeta e la cantante. Ma soprattutto l'amore e il tradimento di Esterina con l'unico uomo che non avrebbe mai dovuto desiderare. Sullo sfondo della luccicante New York dai roaring twenties alla Seconda Guerra Mondiale e di una generazione sprecata a cercare fortuna, Alessio Arena canta con struggente nostalgia il proibizionismo, i gangster italo-americani, la fama di Gilda e il suo palcoscenico, le passioni e le delusioni della più grande cantante italiana d'America.",
+      "imagen": "/assets/images/La notte non vuole venire.jpg",
+      "premios": ""
+    },
+    "letteratura" :{
+      "titulo" : "La letteratura tamil a Napoli (Neri Pozza, 2014)",
+      "descripcion": "Nascosti nel sottosuolo della città, e pronti a farsi saltare in aria per far conoscere al mondo la tragica causa di Tamil Eelam, la loro patria perduta, dopo la resa definitiva delle Tigri e l'uccisione del loro capo Velupillai Prabhakaran da parte delle forze governative dello Sri Lanka, i tamil di Napoli in vent'anni di lavoro hanno creato un mondo altro, quasi un doppio della città. Hanno formato una società segreta, l'Accademia dei sotterranei, che va producendo opere letterarie napo-tamil. Dieci dei loro scrittori, annidati nel sottosuolo della città, raccontano la storia meravigliosa di questa guerra sconosciuta, e lo fanno per l'appunto in dieci capitoli, quanti sono gli avatára (le reincarnazioni) di Vishnu, i cui altarini campeggiano nei bassi dei tamil di Materdei, della Sanità, dei Quartieri Spagnoli e del Pallonetto di Santa Lucia. In questo concerto narrativo, una comunità invisibile racconta le sue mirabolanti imprese, le mitologie, la vita quotidiana. È una comunità che ha lasciato la sua impronta sull'immaginario attuale di Napoli, e che, a sua volta, da Napoli è stata profondamente segnata, creando strepitose mescolanze. Abbiamo cosi madonne con proboscidi e code di elefante, patroni nati dalla fusione di Buddha e San Gennaro, e una disperata attività letteraria espressa sulle pagine di una rivista underground che s'intitola Cannarutizia...",
+      "imagen": "/assets/images/La letteratura tamil a Napoli.jpg",
+      "premios": "Secondo classificato al Premio Neri Pozza 2014, finalista Premio Minerva 2014."
+    },
+    "casa" :{
+      "titulo" : "La casa girata (novela breve) (Senzapatria, 2010)",
+      "descripcion": "23 Novembre 1980, Napoli trema mentre Guglielmo Strazzullo dorme il terremoto della sua anima. È attraverso il racconto di sua madre, impiegata alla Upim, dove tra i consueti abiti da signora si propaganda una 'Letteratura espressionista russa adattata per casalinghe e altri animali domestici', che la personale tragedia amorosa di Guglielmo si amplifica, tanto da diventare espressione di un più universale sentimento di inadeguatezza.",
+      "imagen": "/assets/images/La casa girata.jpg",
+      "premios": ""
+    },
+    "cuore" :{
+      "titulo" : "Il mio cuore è un mandarino acerbo (Zona/Novevolt, 2010)",
+      "descripcion": "Mettete assieme Amanda Lear e Nino D'Angelo, il porto di Marsiglia e l'isola di Procida, la Bibbia e Baudelaire, tre nani, e un travestito che ha lo spessore tragico di un personaggio di Genet. In una sintesi esistenziale degli anni Ottanta, in piena epoca di disimpegno politico, eroina facile, nuove rivendicazioni sessuali e incredibili cotonature, Alessio Arena ci dona un romanzo tragicomico dissacrante che è anche un film, un copione cinematografico che interpreta se stesso. Si alternano così le vicende di un uomo innamorato dell'idea di essere donna, o di essere, più semplicemente, Dio in Terra, nella preparazione della sua complessa, bizzarra e inedita Trasfigurazione. Dove si piange, si ride e si balla come da tradizione partenopea.",
+      "imagen": "/assets/images/Il mio cuore è un mandarino acerbo.jpg",
+      "premios": ""
+    },
+    "infanzia" :{
+      "titulo" : "L'infanzia delle cose (Manni, 2009)",
+      "descripcion": "Anni Ottanta. Napoli, Rione Sanità. Antonio Bacioterracino ha quindici anni. Il padre Patrizio, cantante invischiato con la camorra, muore per un'overdose di eroina, e il resto della famiglia si trasferisce a Madrid, nel quartiere di Lavapiés, covo della comunità gitana. Ma di luoghi comuni, qui, neanche uno. Realismo magico napo-latino e una lingua che fa scintille nell'incontro tra due culture, a rincorrersi tra violini, incendi, un cane che imita il vibrato di June Christy, scarafaggi, ajuntadoras e magliari napoletani.",
+      "imagen": "/assets/images/L'infanzia delle cose.jpg",
+      "premios": "Premio Giuseppe Giusti Opera Prima"
+    }
+  },
+
+  "teatro" : {
+    "aucelle" :{
+      "titulo" : "",
+      "descripcion": "",
+      "imagen": "",
+      "premios": ""
+    },
+    "ratas" :{
+      "titulo" : "",
+      "descripcion": "",
+      "imagen": "",
+      "premios": ""
+    },
+    "marinella" :{
+      "titulo" : "",
+      "descripcion": "",
+      "imagen": "",
+      "premios": ""
+    },
+    "arbol" :{
+      "titulo" : "",
+      "descripcion": "",
+      "imagen": "",
+      "premios": ""
+    },
+    "hielo" :{
+      "titulo" : "",
+      "descripcion": "",
+      "imagen": "",
+      "premios": ""
+    },
+    "quattro" :{
+      "titulo" : "",
+      "descripcion": "",
+      "imagen": "",
+      "premios": ""
+    },
+    "freva" :{
+      "titulo" : "",
+      "descripcion": "",
+      "imagen": "",
+      "premios": ""
+    }
   }
 
 }
