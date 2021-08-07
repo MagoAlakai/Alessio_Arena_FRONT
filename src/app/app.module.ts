@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { CreateEventoComponent } from './pages/create-evento/create-evento.component';
 import { UpdateEventoComponent } from './pages/update-evento/update-evento.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,6 @@ import { UpdateEventoComponent } from './pages/update-evento/update-evento.compo
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule,
     WebModule
   ],
   providers: [],

@@ -1,0 +1,12 @@
+{
+
+  "navbar" : {
+    "libros": "Libros",
+    "discos": "Discografía",
+    "videos": "Vídeos",
+    "biografia": "Biografía",
+    "agenda": "Agenda",
+    "contacto": "Contacto"
+  }
+
+}

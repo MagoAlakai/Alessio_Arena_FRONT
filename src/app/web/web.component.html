@@ -14,27 +14,33 @@
     <nav id="menu" class="nav flex-column flex-md-column flex-lg-row flex-xl-row pl-2">
 
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" >
-        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/libros']" routerLinkActive="router-link-active">Libros</a>
+        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/libros']" routerLinkActive="router-link-active">{{ 'navbar.libros' | translate }}</a>
       </li>
 
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/discos']" routerLinkActive="router-link-active" >Discos</a>
+        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/discos']" routerLinkActive="router-link-active" >{{ 'navbar.discos' | translate }}</a>
       </li>
 
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/videos']" routerLinkActive="router-link-active" >Vídeos</a>
+        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/videos']" routerLinkActive="router-link-active" >{{ 'navbar.videos' | translate }}</a>
       </li>
 
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/biografia']" routerLinkActive="router-link-active" >Biografía</a>
+        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/biografia']" routerLinkActive="router-link-active" >{{ 'navbar.biografia' | translate }}</a>
       </li>
 
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/agenda']" routerLinkActive="router-link-active" >Agenda</a>
+        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/agenda']" routerLinkActive="router-link-active" >{{ 'navbar.agenda' | translate }}</a>
       </li>
 
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/contacto']" routerLinkActive="router-link-active" >Contacto</a>
+        <a class="nav-link ml-2 ml-sm-2 ml-md-4" [routerLink]="['/contacto']" routerLinkActive="router-link-active" >{{ 'navbar.contacto' | translate }}</a>
+      </li>
+
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <select #langselect (change)="translate.use(langselect.value)">
+          <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{ lang }}</option>
+        </select>
       </li>
 
     </nav>
@@ -43,6 +49,29 @@
 </nav>
 
 <router-outlet></router-outlet>
+
+<!-- <footer class="fixed-bottom">
+
+  <div id="traducciones" class="col-12 redes d-flex text-center pt-5 mb-4">
+
+    <div class="text-center col-3">
+      <a href="https://www.facebook.com/alessioarenaofficial" target="_blank"><img src="/assets/images/facebook.png" width="50" height="50"  alt=""></a>
+    </div>
+
+    <div class="text-center col-3">
+      <a href="https://www.instagram.com/alessioarenamusica/?hl=es" target="_blank"><img src="/assets/images/instagram.png" width="50" height="50"  alt=""></a>
+    </div>
+
+    <div class="text-center col-3">
+      <a href="https://www.youtube.com/channel/UCrw3PeP7xckaWKOZAQSNwZQ" target="_blank"><img src="/assets/images/youtube.png" width="50" height="50"  alt=""></a>
+    </div>
+
+    <div class="text-center col-3">
+      <a href="https://open.spotify.com/artist/4Am44NfcHNR70bBt9j1Kqc?si=q3-uMJORQFaHWSeqZAQPdA&nd=1" target="_blank"><img src="/assets/images/spotify.png" width="50" height="50"  alt=""></a>
+    </div>
+
+  </div>
+</footer> -->
 
 </body>
 

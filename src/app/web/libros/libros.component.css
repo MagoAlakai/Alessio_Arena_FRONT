@@ -157,6 +157,7 @@ p{
   .my-custom-scrollbar {
     position: relative;
     height: 85vh;
+    /* height: 76vh; Solo para probar logos en footer */
     overflow: auto;
   }
 
