@@ -2,7 +2,7 @@
 
   <!-- Listado de eventos -->
   <div>
-    <h1 id="eventoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Agenda</h1>
+    <h1 id="eventoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">{{ 'navbar.agenda' | translate }}</h1>
     <div id="eventoes" *ngFor="let evento of eventos | async" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
       <div class="card-body">
         <h3 class="card-title"><ins>{{evento.name}}</ins></h3>
@@ -16,11 +16,11 @@
           <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
           <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
         </svg>{{evento.price}} €</p>
-        <p *ngIf="evento.link_external" class="card-text"><i class="bi bi-info-circle"></i><a href="{{evento.link_external}}" target="_blank">Más info aquí</a></p>
+        <p *ngIf="evento.link_external" class="card-text"><i class="bi bi-info-circle"></i><a href="{{evento.link_external}}" target="_blank">{{ 'agenda.info' | translate }}</a></p>
       </div>
 
       <div *ngIf="evento.link_shop" class="card-footer">
-        <p><i class="bi bi-upc-scan"></i><a href="{{evento.link_shop}}" target="_blank"><strong>Comprar online</strong></a></p>
+        <p><i class="bi bi-upc-scan"></i><a href="{{evento.link_shop}}" target="_blank"><strong>{{ 'agenda.comprar' | translate }}</strong></a></p>
       </div>
     </div>
   </div>

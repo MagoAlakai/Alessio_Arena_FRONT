@@ -9,6 +9,11 @@
     "contacto": "Contatto"
   },
 
+  "titulos" : {
+    "colaboraciones": "Collaborazioni",
+    "videos": "Video"
+  },
+
   "genero" : {
     "novela" : "Romanzi",
     "teatro" : "Teatro",
@@ -134,7 +139,7 @@
     "ancora" :{
       "titulo" : "Non ancora trentenni, Nuovi Argomenti (Mondadori, 2008)",
       "descripcion": "Adesso si affaccia una nuova generazione. Non sono ancora trentenni ed è ancora difficile tracciare quali saranno le loro tematiche, non è chiaro se la principale ossessione resti la realtà o altro. Certamente questi giovanissimi “under25” hanno volutamente perso di vista il paese in cui vivono per occuparsi invece di una sfera più personale e questo nonostante i testi siano stati inviati a una rivista con una sua spiccata impronta culturale.",
-      "imagen": "",
+      "imagen": "/assets/images/Arena non ancora trentenni.jpg",
       "premios": ""
     }
   },
@@ -194,6 +199,29 @@
       "descripcion": "È il 31 dicembre a Barcellona e Fernando, detto Fer, è seduto al tavolo della sala da pranzo di sua madre a piegare con cura i tovaglioli rossi. Amalia, la mamma, è nervosa e piena di gioia. Dopo tanti tentativi frustrati, tutti i suoi figli e parenti – il sangue del suo sangue – si siederanno a tavola per festeggiare l'ultimo dell'anno e brindare finalmente insieme. Ci sarà lui, Fer, con Max, l'alano che dorme con la testa in una perenne pozza di bava, regalo d'addio che il suo ex compagno Andrés gli ha lasciato, giusto per non sentirsi in colpa per essersi innamorato di un altro",
       "premios": ""
     }
+  },
+
+  "discos" : {
+    "giancarlo": "Collaborazione con Giancarlo Arena",
+    "clara": "Collaborazione con Clara Peyo"
+  },
+
+  "biografia" : {
+    "1" : "Napoli, classe 1984, ",
+    "2" : "scrittore, cantautore e traduttore",
+    "3" : ". Divide la sua carriera tra Spagna e Italia, conciliando progetti letterari, musicali ed educativi che cercano di relativizzare le frontiere tra queste trre aree.Studioso appassionato di letterature in lingua spagnola e docente, si è formato nelle Università di Napoli L'Orientale, Università di Barcellona, Università Rovira i Virgili di Tarragona e Ca' Foscari di Venezia.",
+    "4" : "Vincitore della XXIV edizione di Musicultura,",
+    "5" : "autore e interprete di quattro album plurilingue, e di testi e musiche per il teatro e per altri interpreti",
+    "6" : ". Autorretrato de ciudad invisible (2010), Bestiario Familiare (2013), La Secreta Danza (2016) e Atacama! (2019) sono i suoi album in studio. Con suo fratello Giancarlo Arena ha inciso l’EP Dummènca (2020). Ha duettato con nomi importanti della world music internazionale, come Manuel García (Cile), Marta Gómez (Colombia) e Miguel Poveda (Spagna) .",
+    "7" : "I suoi romanzi sono: L'infanzia delle cose (Premio Giuseppe Giusti Opera Prima) Il mio cuore è un mandarino acerbo, La letteratura tamil a Napoli (finalista al Premio Minerva, secondo classificato al Premio Neri Pozza) e La notte non vuole venire (Fandango Libri) ispirato alla vita della cantante napoletana emigrata in America Gilda Mignonette. Attualmente lavora a un romanzo in via di pubblicazione, sempre con Fandango Libri, e a un nuovo album di inediti.",
+    "8" : "Nel 2021 ha ricevuto alcuni riconoscimenti importanti al ",
+    "9" : "Premio Andrea Parodi dedicato alla World Music:",
+    "10" : " Premio della critica, Premio al miglior testo, Premio per la migliore reinterpretazione, Premio degli artisti."
+  },
+
+  "agenda" : {
+    "info": "Maggiori informazioni qui",
+    "comprar": "Comprare online"
   }
 
 }
