@@ -57,45 +57,141 @@
 
   "teatro" : {
     "aucelle" :{
-      "titulo" : "",
-      "descripcion": "",
-      "imagen": "",
+      "titulo" : "Ll'aucielle, testo napoletano a partire da “Gli uccelli” di Aristofane (2019)",
+      "descripcion": "A cercare di costruire un posto dove vivere in cielo sono due irriverenti transessuali napoletane che immaginano un'alternativa all'inarrestabile gentrificazione della loro città.",
+      "imagen": "/assets/images/Ll'aucielle.jpg",
       "premios": ""
     },
     "ratas" :{
-      "titulo" : "",
-      "descripcion": "",
-      "imagen": "",
+      "titulo" : "Las ratas (2018)",
+      "descripcion": "Tre donne rinchiuse nell'entrata di un palazzo. Fuori, un esercito di topi infesta la città. Questa potrebbe essere Madrid, Napoli o Barcellona. Dipende dalla fiducia che lo spettatore dà al racconto allucinato di ognuna delle protagoniste.",
+      "imagen": "/assets/images/las ratas.jpg",
       "premios": ""
     },
     "marinella" :{
-      "titulo" : "",
-      "descripcion": "",
-      "imagen": "",
+      "titulo" : "Marinella, testo napoletano a partire dal “La sirenetta” di Andersen (2015)",
+      "descripcion": "Marinella e le sue sorelle vivono nei sotterranei di Napoli. A differenza degli altri abitanti, queste sirene, mezze donne e mezze topi, hanno dovuto isolarsi dopo la loro orribile trasformazione, causata dalla crisi dei rifiuti che ha colpito la città.",
+      "imagen": "/assets/images/Marinella.jpg",
       "premios": ""
     },
     "arbol" :{
-      "titulo" : "",
-      "descripcion": "",
-      "imagen": "",
+      "titulo" : "Árbol (Espacio Labruc, Madrid, 2014)",
+      "descripcion": "Suor Margarita vuole uccidere tutte le piante che vivono nel giardino dell'istituto psichiatrico che dirige. Anturio, il suo nipote invertito, ha la missione di trasformare questo giardino demoniaco in una terra desolata secondo gli ordini della zia. Un compito a cui resiste, poiché ha un fascino particolare per Celidonia, la più singolare detenuta lì, che tratta uno degli alberi del giardino come se fosse suo figlio.",
+      "imagen": "/assets/images/Árbol.png",
       "premios": ""
     },
     "hielo" :{
-      "titulo" : "",
-      "descripcion": "",
-      "imagen": "",
+      "titulo" : "Hielo (Nudo Teatro, Madrid, 2012)",
+      "descripcion": "Una storia lirica su Reinaldo Atxaga, giovane assistente in un centro per disabili e assiduo visitatore delle pagine di contatto gay. Reinaldo basa sulla sua esperienza professionale e biografica l'idea che il sesso dovrebbe essere completamente staccato dal suo carattere sociale ed essere vissuto come un fatto naturale tra esseri umani.",
+      "imagen": "/assets/images/Hielo.jpg",
       "premios": ""
     },
     "quattro" :{
-      "titulo" : "",
-      "descripcion": "",
-      "imagen": "",
+      "titulo" : "Quattro mamme scelte a caso (Teatro Civico 14, Caserta, 2011)",
+      "descripcion": "Lo spettacolo è un approccio all'opera di Annibale Ruccello attraverso quattro monologhi capaci di restituire gli stessi eccezionali personaggi femminili del grande drammaturgo morto in un tragico incidente stradale. Alessio Arena scrive Sciore Arancia, interpretato da Gea Martire.",
+      "imagen": "assets/images/Quattro mamme scelte a caso (Teatro).jpg",
       "premios": ""
     },
     "freva" :{
-      "titulo" : "",
-      "descripcion": "",
+      "titulo" : "A freva – La peste al Rione Sanità (Teatro di Napoli Mercadante, 2020)",
+      "descripcion": "Alessio Arena compone le musiche per lo spettacolo, con gli arrangiamenti e la produzione di Luigi Esposito.",
       "imagen": "",
+      "premios": ""
+    }
+  },
+
+  "colectivos" : {
+    "panamericana" :{
+      "titulo" : "Panamericana (La nuova frontiera, 2016)",
+      "descripcion": "Panamericana è un viaggio – dal Messico alla Patagonia, ma anche oltre – che nove scrittori italiani ci invitano a percorrere. Un omaggio ai loro maestri latinoamericani che testimonia l'affermazione di un nuovo grande fermento di quelle letterature in Italia. Una galleria di personaggi, un album di fuoriclasse, un atto di smisurato amore: ecco una raccolta dove il destino spesso aggrovigliato di nazioni e città delle Americhe s'intreccia a incontri immaginari e presenze emblematiche, e dove il realismo più acuto si fonde con la fantasia più danzante. Alessio Arena scrive di Reinaldo Arenas.",
+      "imagen": "/assets/images/Panamericana-La-Nuova-Frontiera.jpg",
+      "premios": ""
+    },
+    "mamme" :{
+      "titulo" : "'Quattro mamme scelte a caso (Caracò, 2012))'",
+      "descripcion": "Una donna del popolo che sta per accompagnare la figlia in ospedale per un intervento delicato ('Il fatto più bello', di Massimiliano Virgilio); una mamma/nonna padrona delle tecnologie più avanzate ma costretta su una sedie a rotelle nell'indifferenza dei familiari ('70 mi dà tanto', di Luigi Romolo Carrino); una matta rinchiusa nel carcere di Pozzuoli e abbarbicata su un albero di arance che crede sia suo figlio ('Sciore Arancia', di Alessio Arena); il fantasma di Vincenzina ritornato dall'aldilà per salvare il figlio dalla tremenda punizione che sta per abbattersi sull'Italia ('La Pocalisse', di Massimiliano Palmese). A venticinque anni dalla morte di Annibale Ruccello, l'omaggio di quattro nuovi autori napoletani ad uno dei più innovativi drammaturghi del secondo Novecento.",
+      "imagen": "assets/images/Quattro mamme scelte a caso (Libro Caracò editore).jpg",
+      "premios": ""
+    },
+    "diva" :{
+      "titulo" : "Diva mon amour (Azimut, 2010)",
+      "descripcion": "Collettanea di racconti dedicati alle icone gay della storia. Alessio Arena scrive della diva del soul cubano La Lupe.",
+      "imagen": "/assets/images/Diva Mon Amour.jpg",
+      "premios": ""
+    },
+    "napoli" :{
+      "titulo" : "Napoli per le strade (Azimut, 2009)",
+      "descripcion": "Raccoglie racconti di 21 nuovi scrittori da Napoli e dintorni. Il libro ha vinto il Premio Girulà 2009 - Scrittori a Napoli",
+      "imagen": "/assets/images/Napoli per le strade.jpg",
+      "premios": ""
+    },
+    "quello" :{
+      "titulo" : "Quello che c'è tra di noi (Manni, 2008)",
+      "descripcion": "La raccolta che state per leggere parla di amore omosessuale. Ripeto il concetto di amore (sostantivo) e il concetto di omosessuale (aggettivo), perché è in questo accostamento che si differenzia dalle altre. Non è un'antologia di racconti gay, quanto piuttosto una raccolta di autori disparati chiamati a confrontarsi col tema dei sentimenti gay. ",
+      "imagen": "/assets/images/Quello che c'è tra di noi.jpg",
+      "premios": ""
+    },
+    "ancora" :{
+      "titulo" : "Non ancora trentenni, Nuovi Argomenti (Mondadori, 2008)",
+      "descripcion": "Adesso si affaccia una nuova generazione. Non sono ancora trentenni ed è ancora difficile tracciare quali saranno le loro tematiche, non è chiaro se la principale ossessione resti la realtà o altro. Certamente questi giovanissimi “under25” hanno volutamente perso di vista il paese in cui vivono per occuparsi invece di una sfera più personale e questo nonostante i testi siano stati inviati a una rivista con una sua spiccata impronta culturale.",
+      "imagen": "",
+      "premios": ""
+    }
+  },
+
+  "traducciones" : {
+    "raconti" :{
+      "titulo" : "Racconti",
+      "autor" : "Ricardo Jaimes Freyre (Arcoiris, 2021)",
+      "descripcion": "Affascinato dalla narrativa breve come altri scrittori del modernismo ispanoamericano, il boliviano Ricardo Jaimes Freyre (1868-1933) è autore di pregevolissimi racconti, apparsi in origine su riviste e riscoperti solo negli ultimi decenni, testi in cui compaiono mendicanti ossessionati dalla felicità, eremiti stanchi che vedono la loro solitudine turbata da misteriosi personaggi, appassionate cortigiane dell'antica Bisanzio, coraggiosi soldati della guerra del Pacifico e implacabili indios in cerca di vendetta. In queste erudite e fantasiose miniature il lettore troverà lo stile musicale e misurato e la passione per le narrazioni storiche e fantastiche tipiche dei modernisti, ma non solo. Troverà anche un profondo interesse per la cultura e la geografia del proprio Paese e la volontà di denunciare le violenze perpetrate contro gli indios.",
+      "premios": ""
+    },
+    "appartamento" :{
+      "titulo" : "Un appartamento su Urano",
+      "autor" : "Paul B. Preciado (Fandango Libri 2021)",
+      "descripcion": "Urano, il gigante ghiacciato, è il pianeta più freddo del sistema solare e anche un dio della mitologia greca. Nel 1864 Karl Heinrich Ulrichs, uno dei primi attivisti transessuali europei, elabora il concetto di uranismo per definire il 'terzo sesso'. Paul B. Preciado sogna un appartamento su Urano dove vivere al di fuori delle relazioni di potere e delle categorie di genere e sessuali.",
+      "premios": "Traduzione parziale"
+    },
+    "629" :{
+      "titulo" : "'629 – Uomini in gabbia'",
+      "autor" : "Vari Autori catalani (Produzione Nuovo Teatro Sanità, 2019)",
+      "descripcion": "Lo spettacolo nasce mettendo insieme più di venti autori, provenienti da tre diversi paesi – Spagna, Grecia e Italia –, che hanno deciso di affrontare un viaggio verso la diversità, attraversando il clima di odio violento cui è approdata l'Europa. A nulla servono le manifestazioni di sensibilizzazione: la politica segue un'altra rotta, un percorso che vuole il rifugiato, lo straniero, come nemico",
+      "premios": ""
+    },
+    "testa" :{
+      "titulo" : "La testa sott'acqua",
+      "autor" : "Helena Tornero (Producción teatral Nuovo Teatro Sanità, 2019)",
+      "descripcion": "Il lavoro teatrale affronta alcuni dei problemi più comuni che coinvolgono in un unico destino di sconfitta i giovani e la società: l'intolleranza collettiva, l'esclusione sociale, i rapporti tra genitori e figli, la violenza giovanile e prende le mosse da un vero episodio di bullismo.",
+      "premios": ""
+    },
+    "nave" :{
+      "titulo" : "E la nave va",
+      "autor" : "Diogo Liberano (Producción teatral BeyondTheSud, 2019)",
+      "descripcion": "Frammenti di un racconto dell'inizio e dello sviluppo di una storia d'amore tra un uomo di circa trent'anni e uno di quarantatré. Una storia raccontata dal punto di vista di una macchina, con uno spazio interno per sole due persone. Mentre il più giovane teme il futuro, per paura di essere visto lontano dall'uomo che ama, l'uomo più anziano fugge dal suo passato segnato da traumi recenti.",
+      "premios": ""
+    },
+    "historia" :{
+      "titulo" : "Una historia de imposibilidad",
+      "autor" : "Fabio Pisano (Produzione teatrale  BeyondTheSud, 2019)",
+      "descripcion": "Didascalista: Una pausa. Che non è proprio un silenzio. La pausa è una elaborazione. Il silenzio è la drammaturgia.",
+      "premios": ""
+    },
+    "figlio" :{
+      "titulo" : "Un figlio",
+      "autor" : "Alejandro Palomas (Neri Pozza, 2016)",
+      "descripcion": "Guille non ha niente in comune con i suoi compagni di quarta elementare: è taciturno, non ama il calcio e ha sempre la testa tra le nuvole. Sarà perché non si è ancora ambientato nella nuova scuola, dice suo padre, Manuel Antúnez, quando la maestra Sonia lo convoca d'urgenza in aula docenti. Sonia, però, scuote la testa. Quella mattina, prima dell'intervallo, ha chiesto agli alunni che cosa avrebbero voluto fare da grandi. C'è chi ha risposto il veterinario, chi Beyoncé, chi ancora l'astronauta, Rafael Nadal o la vincitrice di The Voice. Guille ha risposto... Mary Poppins.",
+      "premios": "Premio Letteraria 2016 per la Narrativa in traduzione"
+    },
+    "todo" :{
+      "titulo" : "Todo ya está aquí aunque no se vea: Enrique Vargas y el teatro de los sentidos",
+      "autor" : "Maria Pagliaro (Corre la voz, 2016)",
+      "descripcion": "Biografia del colombiano Enrique Vargas, fondatore del Teatro de los Sentidos. ",
+      "premios": ""
+    },
+    "capodanno" :{
+      "titulo" : "Capodanno da mia madre",
+      "autor" : "Alejandro Palomas (Neri Pozza, 2015)",
+      "descripcion": "È il 31 dicembre a Barcellona e Fernando, detto Fer, è seduto al tavolo della sala da pranzo di sua madre a piegare con cura i tovaglioli rossi. Amalia, la mamma, è nervosa e piena di gioia. Dopo tanti tentativi frustrati, tutti i suoi figli e parenti – il sangue del suo sangue – si siederanno a tavola per festeggiare l'ultimo dell'anno e brindare finalmente insieme. Ci sarà lui, Fer, con Max, l'alano che dorme con la testa in una perenne pozza di bava, regalo d'addio che il suo ex compagno Andrés gli ha lasciato, giusto per non sentirsi in colpa per essersi innamorato di un altro",
       "premios": ""
     }
   }

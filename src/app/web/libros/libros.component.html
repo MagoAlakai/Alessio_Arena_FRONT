@@ -76,44 +76,251 @@
     <h1 id="teatroTitulo" class="border-bottom mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Teatro</h1>
 
     <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
-      <img class="card-img-top mt-3" src='teatro.aucelle.imagen' alt="">
+      <img class="card-img-top mt-3" src="{{ 'teatro.aucelle.imagen' | translate }}" alt="">
       <div class="card-body">
-        <h3 class="card-title">{{ 'teatro.aucelle.titulo' }}</h3>
-        <p class="card-text">{{'teatro.aucelle.descripcion'}}</p>
+        <h3 class="card-title">{{ 'teatro.aucelle.titulo' | translate }}</h3>
+        <p class="card-text">{{'teatro.aucelle.descripcion' | translate }}</p>
+      </div>
       <div class="card-footer">
-        <strong>{{'teatro.aucelle.premios'}}</strong>
+        <strong>{{'teatro.aucelle.premios' | translate }}</strong>
       </div>
     </div>
 
+    <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{ 'teatro.ratas.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'teatro.ratas.titulo' | translate }}</h3>
+        <p class="card-text">{{'teatro.ratas.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{'teatro.ratas.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{'teatro.marinella.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'teatro.marinella.titulo' | translate }}</h3>
+        <p class="card-text">{{'teatro.marinella.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{'teatro.marinella.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{'teatro.arbol.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'teatro.arbol.titulo' | translate }}</h3>
+        <p class="card-text">{{'teatro.arbol.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{'teatro.arbol.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{'teatro.hielo.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'teatro.hielo.titulo' | translate }}</h3>
+        <p class="card-text">{{'teatro.hielo.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{'teatro.hielo.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{'teatro.quattro.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'teatro.quattro.titulo' | translate }}</h3>
+        <p class="card-text">{{'teatro.quattro.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{'teatro.quattro.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="teatro" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{'teatro.freva.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{ 'teatro.freva.titulo' | translate }}</h3>
+        <p class="card-text">{{'teatro.freva.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{'teatro.freva.premios' | translate }}</strong>
+      </div>
+    </div>
 
   </div>
 
   <!-- Listado de colaboraciones -->
   <div class="mb-5">
-    <h1 id="compartidoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Libros colectivos</h1>
-    <div id="compartido" *ngFor="let libroColectivo of librosColectivos" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
-      <img class="card-img-top mt-3" [src]="libroColectivo.imagen" alt="">
+    <h1 id="compartidoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">{{ 'genero.colectivos' | translate }}</h1>
+
+    <div id="compartido" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{ 'colectivos.panamericana.imagen' | translate }}" alt="">
       <div class="card-body">
-        <h3 class="card-title">{{libroColectivo.titulo}}</h3>
-        <p class="card-text">{{libroColectivo.descripcion}}</p>
-      <div *ngIf="libroColectivo.premios" class="card-footer">
-        <strong>{{libroColectivo.premios}}</strong>
+        <h3 class="card-title">{{'colectivos.panamericana.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'colectivos.panamericana.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'colectivos.panamericana.premios' | translate }}</strong>
       </div>
     </div>
+
+    <div id="compartido" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{ 'colectivos.mamme.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{'colectivos.mamme.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'colectivos.mamme.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'colectivos.mamme.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="compartido" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{ 'colectivos.diva.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{'colectivos.diva.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'colectivos.diva.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'colectivos.diva.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="compartido" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{ 'colectivos.napoli.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{'colectivos.napoli.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'colectivos.napoli.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'colectivos.napoli.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="compartido" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{ 'colectivos.quello.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{'colectivos.quello.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'colectivos.quello.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'colectivos.quello.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="compartido" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <img class="card-img-top mt-3" src="{{ 'colectivos.ancora.imagen' | translate }}" alt="">
+      <div class="card-body">
+        <h3 class="card-title">{{'colectivos.ancora.titulo' | translate }}</h3>
+        <p class="card-text">{{ 'colectivos.ancora.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'colectivos.ancora.premios' | translate }}</strong>
+      </div>
+    </div>
+
   </div>
 
   <!-- Listado de Traducciones -->
   <div class="mb-5">
-    <h1 id="compartidoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">Traducciones</h1>
-    <div id="traducciones" *ngFor="let traduccion of traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+
+    <h1 id="compartidoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">{{ 'genero.traducciones' | translate }}</h1>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
       <div class="card-body">
-        <h3 class="card-title"><i>{{traduccion.titulo}}</i> {{traduccion.autor}}</h3>
-        <p class="card-text">{{traduccion.descripcion}}</p>
+        <h3 class="card-title">{{'traducciones.racconti.titulo' | translate }} - {{'traducciones.racconti.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.racconti.descripcion' | translate }}</p>
       </div>
-      <div *ngIf="traduccion.premios" class="card-footer">
-       <strong>{{traduccion.premios}}</strong>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.racconti.premios' | translate }}</strong>
       </div>
     </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.appartamento.titulo' | translate }} - {{'traducciones.appartamento.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.appartamento.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.appartamento.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.629.titulo' | translate }} - {{'traducciones.629.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.629.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.629.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.testa.titulo' | translate }} - {{'traducciones.testa.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.testa.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.testa.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.nave.titulo' | translate }} - {{'traducciones.nave.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.nave.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.nave.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.historia.titulo' | translate }} - {{'traducciones.historia.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.historia.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.historia.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.figlio.titulo' | translate }} - {{'traducciones.figlio.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.figlio.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.figlio.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.todo.titulo' | translate }} - {{'traducciones.todo.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.todo.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.todo.premios' | translate }}</strong>
+      </div>
+    </div>
+
+    <div id="traducciones" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+      <div class="card-body">
+        <h3 class="card-title">{{'traducciones.capodanno.titulo' | translate }} - {{'traducciones.capodanno.autor' | translate }}</h3>
+        <p class="card-text">{{ 'traducciones.capodanno.descripcion' | translate }}</p>
+      </div>
+      <div class="card-footer">
+        <strong>{{ 'traducciones.capodanno.premios' | translate }}</strong>
+      </div>
+    </div>
+
   </div>
 
 </div>
