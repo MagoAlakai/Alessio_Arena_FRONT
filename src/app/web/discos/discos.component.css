@@ -41,7 +41,7 @@ p{
     margin-left: 35px !important;
     margin-top: -5px;
     font-size: 26px;
-    max-width:73vh;
+    max-width: 66.5vh !important;
   }
 
   .layout{
@@ -62,7 +62,7 @@ p{
   .my-custom-scrollbar {
     position: relative;
     height: 95vh;
-    width: 87vh;
+    width: 79vh;
     overflow: auto;
   }
 

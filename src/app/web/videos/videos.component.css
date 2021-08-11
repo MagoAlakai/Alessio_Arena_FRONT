@@ -60,7 +60,6 @@ p{
 
   #libros, #compartido, #teatro {
     max-width:63vh;
-    /*  */
   }
 
   .layout{
@@ -68,7 +67,7 @@ p{
   }
 
   .card-body{
-    min-width:63vh;
+    min-width:62.5vh;
   }
 
   .my-custom-scrollbar {
