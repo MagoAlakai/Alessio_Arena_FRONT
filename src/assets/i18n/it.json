@@ -203,20 +203,31 @@
 
   "discos" : {
     "giancarlo": "Collaborazione con Giancarlo Arena",
-    "clara": "Collaborazione con Clara Peyo"
+    "clara": "Collaborazione con Clara Peya",
+    "marina": "Collaborazione con Marina Rossell",
+    "flo": "Collaborazione con Flo",
+    "giovanni": "Collaborazione con Giovanni Block",
+    "giorgis": "Collaborazione con Giorgis Christoudolou",
+    "guillem": "Collaborazione con Guillem Roma",
+    "oiank": "Collaborazione con O'Iank",
+    "mbarka": "Collaborazione con M'barka Ben Taleb",
+    "nico": "Collaborazione con Nico Roig",
+    "fabiana": "Collaborazione con Fabiana Martone",
+    "gessami": "Collaborazione con Gessamí Boada"
   },
 
   "biografia" : {
-    "1" : "Napoli, classe 1984, ",
-    "2" : "scrittore, cantautore e traduttore",
+    "1" : "Nato a Napoli nel 1984. ",
+    "2" : "È scrittore, cantautore, traduttore e insegnante di lingua e letteratura spagnola",
     "3" : ". Divide la sua carriera tra Spagna e Italia, conciliando progetti letterari, musicali ed educativi che cercano di relativizzare le frontiere tra queste trre aree.Studioso appassionato di letterature in lingua spagnola e docente, si è formato nelle Università di Napoli L'Orientale, Università di Barcellona, Università Rovira i Virgili di Tarragona e Ca' Foscari di Venezia.",
-    "4" : "Vincitore della XXIV edizione di Musicultura,",
-    "5" : "autore e interprete di quattro album plurilingue, e di testi e musiche per il teatro e per altri interpreti",
-    "6" : ". Autorretrato de ciudad invisible (2010), Bestiario Familiare (2013), La Secreta Danza (2016) e Atacama! (2019) sono i suoi album in studio. Con suo fratello Giancarlo Arena ha inciso l’EP Dummènca (2020). Ha duettato con nomi importanti della world music internazionale, come Manuel García (Cile), Marta Gómez (Colombia) e Miguel Poveda (Spagna) .",
-    "7" : "I suoi romanzi sono: L'infanzia delle cose (Premio Giuseppe Giusti Opera Prima) Il mio cuore è un mandarino acerbo, La letteratura tamil a Napoli (finalista al Premio Minerva, secondo classificato al Premio Neri Pozza) e La notte non vuole venire (Fandango Libri) ispirato alla vita della cantante napoletana emigrata in America Gilda Mignonette. Attualmente lavora a un romanzo in via di pubblicazione, sempre con Fandango Libri, e a un nuovo album di inediti.",
-    "8" : "Nel 2021 ha ricevuto alcuni riconoscimenti importanti al ",
-    "9" : "Premio Andrea Parodi dedicato alla World Music:",
-    "10" : " Premio della critica, Premio al miglior testo, Premio per la migliore reinterpretazione, Premio degli artisti."
+    "4" : "È autore e interprete di quattro album plurilingue, e di testi e musiche per il teatro e per altri interpreti. I suoi album sono: ",
+    "5" : "Autorretrato de ciudad invisible (2010), Bestiario Familiare (2013), La Secreta Danza (2016) e Atacama! (2019) sono i suoi album in studio. Con suo fratello Giancarlo Arena ha inciso l’EP Dummènca (2020). Ha duettato con nomi importanti della world music internazionale, come Manuel García (Cile), Marta Gómez (Colombia) e Miguel Poveda (Spagna) .",
+    "6" : "I suoi romanzi sono: L'infanzia delle cose (Premio Giuseppe Giusti Opera Prima) Il mio cuore è un mandarino acerbo, La letteratura tamil a Napoli (finalista al Premio Minerva, secondo classificato al Premio Neri Pozza), La notte non vuole venire (Fandango Libri) ispirato alla vita della cantante napoletana emigrata in America Gilda Mignonette e il più recente Ninna nanna delle mosche (Fandango Libri), pubblicato a settembre 2021",
+    "7" : "Attualmente sta lavorando a traduzioni di autori di lingua spagnola in italiano e a un nuovo album di canzoni inedite. Nel 2013 ha vinto il ",
+    "8" : "premio italiano per la canzone d'autore Musicultura.",
+    "9" : "Nel 2021 ha ricevuto alcuni riconoscimenti importanti al ",
+    "10" : "Premio Andrea Parodi dedicato alla World Music:",
+    "11" : " Premio della critica, Premio al miglior testo, Premio per la migliore reinterpretazione, Premio degli artisti."
   },
 
   "agenda" : {

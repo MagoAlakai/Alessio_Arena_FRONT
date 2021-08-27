@@ -204,20 +204,31 @@
 
   "discos" : {
     "giancarlo": "Colaboración con Giancarlo Arena",
-    "clara": "Colaboración con Clara Peyo"
+    "clara": "Colaboración con Clara Peya",
+    "marina": "Colaboración con Marina Rossell",
+    "flo": "Colaboración con Flo",
+    "giovanni": "Colaboración con Giovanni Block",
+    "giorgis": "Colaboración con Giorgis Christoudolou",
+    "guillem": "Colaboración con Guillem Roma",
+    "oiank": "Colaboración con O'Iank",
+    "mbarka": "Colaboración con M'barka Ben Taleb",
+    "nico": "Colaboración con Nico Roig",
+    "fabiana": "Colaboración con Fabiana Martone",
+    "gessami": "Colaboración con Gessamí Boada"
   },
 
   "biografia" : {
-    "1" : "Nacido en Nápoles, en 1984, ",
-    "2" : "escritor, cantautor y traductor",
-    "3" : ". Divide su carrera entre España e Italia, conciliando proyectos literarios, musicales y educativos que buscan relativizar las fronteras entre los tres ámbitos. Apasionado de la literaturas en lengua española y profesor, se ha formado en las universidades de Nápoles L'Orientale, Universitat de Barcelona, Universitat Rovira i Virgili de Tarragona y Ca' Foscari de Venecia.",
-    "4" : "Ganador del Premio de canción de autor italiana Musicultura,",
-    "5" : "es autor e intérprete de cuatro discos multilingües y de textos y música para el teatro y otros intérpretes",
-    "6" : ". Autorretrato de ciudad invisible (2010), Bestiario Familiar(e) (2013), La Secreta Danza (2016) y ¡Atacama! (2019) son sus álbumes de estudio. Con su hermano Giancarlo Arena ha grabado el EP Dummènca (2020). Ha colaborado con importantes nombres de la world music internacional, como Manuel García (Chile), Marta Gómez (Colombia) y Miguel Poveda (España).",
-    "7" : "Sus novelas son: L'infanzia delle cose (Premio Giuseppe Giusti al mejor Autor novel) Il mio cuore è un mandarino acerbo, La letteratura tamil a Napoli (finalista en el Premio Minerva, segundo lugar en el Premio Neri Pozza) y La notte non vuole venire (Fandango Libri). Actualmente trabaja en traducciones de autores de habla hispana al italiano, en una novela que está a punto de publicarse, de nuevo con Fandango Libri, y en un nuevo álbum de canciones inéditas.",
-    "8" : "En 2021 ha sido galardonado con los ",
-    "9" : "Premios Andrea Parodi dedicados a las Músicas del mundo:",
-    "10" : " Premio de la crítica, Premio a la mejor letra, Premio a la mejor reinterpretación, Premio de los artistas."
+    "1" : "Nacido en Nápoles en 1984. ",
+    "2" : "Es escritor, cantautor, traductor y profesor de lengua y literatura española",
+    "3" : ". Divide su carrera entre España e Italia, conciliando proyectos literarios, musicales y educativos que buscan relativizar las fronteras entre los tres ámbitos. Apasionado de la literatura en lengua española, se ha formado en las universidades de Nápoles L'Orientale, Universitat de Barcelona, Universitat Rovira i Virgili de Tarragona y Ca' Foscari de Venecia.",
+    "4" : "Es autor e intérprete de cuatro discos multilingües y de textos y música para el teatro y otros intérpretes. ",
+    "5" : "Sus discos son: Autorretrato de ciudad invisible (2010), Bestiario Familiar(e) (2013), La Secreta Danza (2016), ¡Atacama! (2019) y el EP Dummènca (2020) junto a su hermano Giancarlo Arena. Ha colaborado con importantes personalidades de la escena musical internacional, como Manuel García (Chile), Marta Gómez (Colombia), Miguel Poveda (España), Clara Peya (España) y Flo (Italia). ",
+    "6" : "Sus novelas son: L'infanzia delle cose (Premio Giuseppe Giusti al mejor Autor novel) Il mio cuore è un mandarino acerbo, La letteratura tamil a Napoli (finalista en el Premio Minerva, segundo lugar en el Premio Neri Pozza), La notte non vuole venire (Fandango Libri) y el más reciente Ninna nanna delle mosche (Fandango Libri) publicado en septiembre de 2021.",
+    "7" : "Actualmente trabaja en traducciones de autores de habla hispana al italiano y en un nuevo álbum de canciones inéditas. En 2013 obtiene el ",
+    "8" : "Premio de canción de autor italiana Musicultura. ",
+    "9" : "En 2021 ha sido galardonado con los ",
+    "10" : "Premios Andrea Parodi dedicados a las Músicas del mundo:",
+    "11" : " Premio de la crítica, Premio a la mejor letra, Premio a la mejor reinterpretación, Premio de los artistas."
   },
 
   "agenda" : {

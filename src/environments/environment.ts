@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   urlEndPoint:'/api/',
-  fqdn: 'https://alessio-arena-api.internal.local'
+  fqdn: 'http://backend.alessioarena.com'
 };
 
 /*

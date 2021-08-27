@@ -36,7 +36,7 @@ export class UpdateEventoComponent implements OnInit {
       descripcion: '',
       place: ['', Validators.required],
       link_place: '',
-      price: ['', Validators.required],
+      price: '',
       link_external: '',
       link_shop: '',
     })

@@ -16,8 +16,10 @@ p{
 @media (min-width: 270px) and (max-width: 767.98px) {
 
   #libroTitulo, #teatroTitulo, #compartidoTitulo{
-    margin-left: 1px !important;
+    margin-left: 0.5px !important;
     font-size: 26px;
+    max-width:33.3vh;
+    vertical-align: middle !important;
   }
 
   .table-wrapper-scroll-y {
@@ -26,7 +28,8 @@ p{
 
   .my-custom-scrollbar {
     position: relative;
-    height: 85vh;
+    height: 90vh;
+    width: 46vh;
     overflow: auto;
   }
 }
@@ -38,6 +41,8 @@ p{
     margin-left: 35px !important;
     margin-top: -5px;
     font-size: 26px;
+    max-width: 63vh;
+    vertical-align: middle !important;
   }
 
   .card-text{
@@ -64,7 +69,9 @@ p{
 
   .my-custom-scrollbar {
     position: relative;
-    height: 95vh;
+    height: 94vh;
+    width: 78vh;
+    margin-left: 10px;
     overflow: auto;
   }
 

@@ -18,7 +18,7 @@ p{
   #libroTitulo, #teatroTitulo, #compartidoTitulo{
     margin-left: -15px !important;
     font-size: 26px;
-    max-width:35.50vh;
+    max-width:36.50vh;
     vertical-align: middle !important;
   }
 
@@ -29,7 +29,7 @@ p{
   .my-custom-scrollbar {
     position: relative;
     height: 90vh;
-    width: 45vh;
+    width: 46vh;
     overflow: auto;
   }
 }
@@ -61,7 +61,7 @@ p{
 
   .my-custom-scrollbar {
     position: relative;
-    height: 95vh;
+    height: 94vh;
     width: 79vh;
     overflow: auto;
   }

@@ -29,13 +29,6 @@
           </div>
         </div>
       </div>
-    </div>
-
-  <!-- Listado de Discos con Giancarlo Arena & Clara Peya-->
-  <div class="mb-5">
-    <h1 id="libroTitulo" class="border-bottom ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">{{ 'titulos.colaboraciones' | translate}}</h1>
-
-    <div class="layout">
 
       <div class="d-flex row">
         <div id="libros" *ngFor="let disco of discoGiancarlo" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
@@ -43,19 +36,27 @@
           <div class="card-body">
             <a href={{disco.link}} target="_blank"><h3 class="card-title">{{disco.titulo}}</h3></a>
           </div>
-          <div class="card-footer">
-            <strong>{{ 'discos.giancarlo' | translate}}</strong>
-          </div>
         </div>
+      </div>
 
+    </div>
+
+  <!-- Listado de Colaboraciones-->
+  <div class="mb-5">
+    <h1 id="libroTitulo" class="border-bottom ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">{{ 'titulos.colaboraciones' | translate}}</h1>
+
+    <div class="layout">
+
+      <!-- Listado de Clara Peya & Marina Rossell-->
+      <div class="d-flex row">
+
+        <!-- Clara Peyo -->
         <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
           <div class="card-body">
-            <div class="text-center pt-2">
-              <a href='https://open.spotify.com/album/5n9Krr3RZGmBwEnj7t3Akt?si=SQzVsKfiTtCKG81Ei4ISKg&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tot aquest silenci (2012)</h3></a>
-            </div>
 
             <div class="text-center pt-2">
-              <a href='https://open.spotify.com/album/5BOp6A0Abr52uCt0tfuX6A?si=sLBJm7r4QUiCar2raE2F8A&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tot aquest soroll (2013)</h3></a>
+              <a href='https://open.spotify.com/album/4fSbjbFr5mw6w8Fh1BUW28?si=TE4YP4H_Tjew40KrjeJNAg&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tierra del hielo (2018)
+              </h3></a>
             </div>
 
             <div class="text-center pt-2">
@@ -63,8 +64,11 @@
             </div>
 
             <div class="text-center pt-2">
-              <a href='https://open.spotify.com/album/4fSbjbFr5mw6w8Fh1BUW28?si=TE4YP4H_Tjew40KrjeJNAg&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tierra del hielo (2018)
-              </h3></a>
+              <a href='https://open.spotify.com/album/5BOp6A0Abr52uCt0tfuX6A?si=sLBJm7r4QUiCar2raE2F8A&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tot aquest soroll (2013)</h3></a>
+            </div>
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/5n9Krr3RZGmBwEnj7t3Akt?si=SQzVsKfiTtCKG81Ei4ISKg&dl_branch=1&nd=1' target="_blank"><h3 class="card-title">Tot aquest silenci (2012)</h3></a>
             </div>
 
           </div>
@@ -73,7 +77,184 @@
           </div>
         </div>
 
+        <!-- Marina Rossell -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/5jZY72agVKT96zVg0eeV8b' target="_blank"><h3 class="card-title">Tribut a Moustaki (2014)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.marina' | translate}}</strong>
+          </div>
+        </div>
       </div>
+      <!-- Final listado Clara & Marina -->
+
+      <!-- Listado de Flo & Giovanni-->
+      <div class="d-flex row">
+
+        <!-- Flo -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/13pSNVZ9EPfQXbMNHjyU7z' target="_blank"><h3 class="card-title">31Salvitutti (2020)</h3></a>
+            </div>
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/00XKKUPvEiai1GDsJ88sFM?highlight=spotify:track:2C9mn5tr9nVXRSOMHzmP5u' target="_blank"><h3 class="card-title">D'amore e di altre cose irreversibili (2014)
+              </h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.flo' | translate}}</strong>
+          </div>
+        </div>
+
+        <!-- Marina Rossell -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/5cMVHjK44cR34MxtYIgbws' target="_blank"><h3 class="card-title">S.P.O.T (2017)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.giovanni' | translate}}</strong>
+          </div>
+        </div>
+      </div>
+      <!-- Final listado Flo & Giovanni -->
+
+      <!-- Listado de Giorgis & Gillem-->
+      <div class="d-flex row">
+
+        <!-- Giorgis -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/3eGUgTGvh9XT47fqwntiWb' target="_blank"><h3 class="card-title">Attik à Paris (2016)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.giorgis' | translate}}</strong>
+          </div>
+        </div>
+
+        <!-- Guillem -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/1U10cVsOgoQZpXIgk3Xsvy' target="_blank"><h3 class="card-title">Connexions (2017)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.guillem' | translate}}</strong>
+          </div>
+        </div>
+      </div>
+      <!-- Final listado Giorgis & Guillem -->
+
+      <!-- Listado de O'Iank & M'barka-->
+      <div class="d-flex row">
+
+        <!-- O'Iank -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/2oAuLHekQ3YfOFoIlQ7MrT' target="_blank"><h3 class="card-title">Und1c1 (2021)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.oiank' | translate}}</strong>
+          </div>
+        </div>
+
+        <!-- M'barka -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/6fbq5q9pQJ198mAPPcDNrH' target="_blank"><h3 class="card-title">Passion Fruit (2016)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.mbarka' | translate}}</strong>
+          </div>
+        </div>
+      </div>
+      <!-- Final listado O'Iank & M'barka -->
+
+      <!-- Listado de Nico & Fabiana-->
+      <div class="d-flex row">
+
+        <!-- Nico -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/2ItgSvtjbe155mcLAzQGWe' target="_blank"><h3 class="card-title">Si la vida fuera solo esto (2021)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.nico' | translate}}</strong>
+          </div>
+        </div>
+
+        <!-- Fabiana -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/7DYBxO2TIbsSvXx4oJt8UX?highlight=spotify:track:7hTQmlerWKEgYN6XN3hk8J' target="_blank"><h3 class="card-title">Memorandum (2018)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.fabiana' | translate}}</strong>
+          </div>
+        </div>
+      </div>
+      <!-- Final listado Nico & Fabiana -->
+
+      <!-- Listado de Gessami-->
+      <div class="d-flex row">
+
+        <!-- Gessami -->
+        <div id="libros" class="card border-0 col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 mb-4">
+          <div class="card-body">
+
+            <div class="text-center pt-2">
+              <a href='https://open.spotify.com/album/3KZFH733lKtNSztOzjKCc0' target="_blank"><h3 class="card-title">On començo jo (2020)</h3></a>
+            </div>
+
+          </div>
+          <div class="card-footer">
+            <strong>{{ 'discos.gessami' | translate}}</strong>
+          </div>
+        </div>
+
+      </div>
+      <!-- Final listado Gessami -->
+
     </div>
   </div>
   </div>

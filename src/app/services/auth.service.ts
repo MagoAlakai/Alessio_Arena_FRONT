@@ -2,15 +2,16 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { UsuarioModel } from '../models/usuario.model';
 
+import { environment } from 'src/environments/environment';
+
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
-  private origin:string = 'https://alessio-arena-api.internal.local';
-  private url:string = `${this.origin}/api/`;
+  private url:string = `${environment.fqdn}${environment.urlEndPoint}`;
   public userToken:string;
-  public user;
+  public user: UsuarioModel;
 
   constructor(
     private httpClient: HttpClient
@@ -18,7 +19,7 @@ export class AuthService {
 
   //REGISTER
   register = async(form:any):Promise<any> =>{
-    console.log(form);
+    console.log(this.url);
 
     const httpOptions = {
       headers: new HttpHeaders({
@@ -110,7 +111,7 @@ export class AuthService {
     if(localStorage.getItem('user')){
       this.user = JSON.parse(localStorage.getItem('user'));
     }else{
-      this.user = '';
+      this.user = null;
     }
 
     return this.user;
