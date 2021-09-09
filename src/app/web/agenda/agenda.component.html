@@ -4,7 +4,7 @@
 
   <div>
     <h1 id="eventoTitulo" class="border-bottom pb-2 mt-3 ml-1 ml-sm-2 ml-md-5 ml-lg-5 ml-xl-5 col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10">{{ 'navbar.agenda' | translate }}</h1>
-    <div id="eventoes" *ngFor="let evento of eventos | async" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
+    <div id="eventos" *ngFor="let evento of eventos | async" class="card col-4 col-sm-5 col-md-8 col-lg-10 col-xl-10 mb-4 border-0">
       <div class="card-body">
         <h3 class="card-title"><ins>{{evento.name}}</ins></h3>
         <p class="card-text mb-3">{{evento.descripcion}}</p>
