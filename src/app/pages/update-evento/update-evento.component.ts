@@ -19,6 +19,7 @@ export class UpdateEventoComponent implements OnInit {
 
   public user:UsuarioModel;
   public eventoForm:FormGroup;
+  public _evento: Evento;
   public evento: Promise<Evento> | undefined;
   private routeParamId: string| number | null ;
 
@@ -81,15 +82,18 @@ export class UpdateEventoComponent implements OnInit {
       this.routeParamId = parseInt(this.routeParamId);
       this.eventosService.getEventoById(this.routeParamId)
       .then(res=>{
-        this.eventoForm.setValue({
-          date: res.date,
-          hour: res.hour,
-          name: res.name,
-          place: res.place,
-          price: res.price,
-          link_external: res.link_external,
-          link_shop: res.link_shop,
-        })
+
+        this._evento = res;
+        console.log(this._evento);
+        // this.eventoForm.setValue({
+        //   date: res.date,
+        //   hour: res.hour,
+        //   name: res.name,
+        //   place: res.place,
+        //   price: res.price,
+        //   link_external: res.link_external,
+        //   link_shop: res.link_shop,
+
       }).catch(err=>{
         console.log(err);
       });

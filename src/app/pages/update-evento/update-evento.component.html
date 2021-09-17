@@ -88,15 +88,15 @@
 
                           <div class="d-flex justify-content-center row">
 
-                            <div class="form-group col-8">
+                            <div class="form-group col-8" *ngIf="this._evento">
                               <label class="mb-2" for="date">Fecha</label>
-                              <input type="date" [ngClass]="{'is-invalid':eventoForm.get('date')?.hasError('required')}" class="form-control" id="arrival_date" placeholder="Enter arrival date" formControlName='date'>
+                              <input type="date" [ngClass]="{'is-invalid':eventoForm.get('date')?.hasError('required')}" class="form-control" id="arrival_date" [(ngModel)]="this._evento.date" formControlName='date'>
                               <div class="invalid-feedback"></div>
                             </div>
 
-                            <div class="form-group col-4">
+                            <div class="form-group col-4" *ngIf="this._evento">
                               <label class="mb-2" for="hour">Hora</label>
-                              <input type="time" [ngClass]="{'is-invalid':eventoForm.get('hour')?.hasError('required')}" class="form-control" id="hour" placeholder="Enter arrival date" formControlName='hour'>
+                              <input type="time" [ngClass]="{'is-invalid':eventoForm.get('hour')?.hasError('required')}" class="form-control" id="hour" [(ngModel)]="this._evento.hour" formControlName='hour'>
                               <div class="invalid-feedback"></div>
                             </div>
 
@@ -104,9 +104,9 @@
 
                           <div class="d-flex justify-content-center row">
 
-                            <div class="form-group col-12">
+                            <div class="form-group col-12" *ngIf="this._evento">
                               <label class="mb-2" for="name">Nombre</label>
-                              <input [ngClass]="{'is-invalid':eventoForm.get('name')?.hasError('required')}" class="form-control" id="name" placeholder="Introduzca nombre" formControlName='name'>
+                              <input [ngClass]="{'is-invalid':eventoForm.get('name')?.hasError('required')}" class="form-control" id="name" [(ngModel)]="this._evento.name" formControlName='name'>
                               <div class="invalid-feedback"></div>
                             </div>
 
@@ -114,24 +114,24 @@
 
                           <div class="d-flex justify-content-center row">
 
-                            <div class="form-group col-12">
+                            <div class="form-group col-12" *ngIf="this._evento">
                               <label class="mb-2" for="descripcion">Descripción</label>
-                              <input class="form-control" id="descripcion" placeholder="Introduzca descripción" formControlName='descripcion'>
+                              <input class="form-control" id="descripcion" [(ngModel)]="this._evento.descripcion" formControlName='descripcion'>
                             </div>
 
                           </div>
 
                           <div class="d-flex justify-content-center row">
 
-                            <div class="form-group col-8">
+                            <div class="form-group col-8" *ngIf="this._evento">
                               <label class="mb-2" for="place">Lugar</label>
-                              <input [ngClass]="{'is-invalid':eventoForm.get('place')?.hasError('required')}" class="form-control" id="place" placeholder="Introduzca lugar" formControlName='place'>
+                              <input [ngClass]="{'is-invalid':eventoForm.get('place')?.hasError('required')}" class="form-control" id="place" [(ngModel)]="this._evento.place" formControlName='place'>
                               <div class="invalid-feedback"></div>
                             </div>
 
-                            <div class="form-group col-4">
+                            <div class="form-group col-4" *ngIf="this._evento">
                               <label class="mb-2" for="price">Precio</label>
-                              <input type="number" [ngClass]="{'is-invalid':eventoForm.get('price')?.hasError('required')}" class="form-control" id="price" formControlName='price'>
+                              <input type="number" [ngClass]="{'is-invalid':eventoForm.get('price')?.hasError('required')}" class="form-control" id="price" [(ngModel)]="this._evento.price" formControlName='price'>
                               <div class="invalid-feedback"></div>
                             </div>
 
@@ -139,27 +139,27 @@
 
                           <div class="d-flex justify-content-center row">
 
-                            <div class="form-group col-12">
+                            <div class="form-group col-12" *ngIf="this._evento">
                               <label class="mb-2" for="link_place">Link map</label>
-                              <input class="form-control" id="link_map" placeholder="Introduzca link map" formControlName='link_place'>
+                              <input class="form-control" id="link_map" [(ngModel)]="this._evento.link_place" formControlName='link_place'>
                             </div>
 
                           </div>
 
                           <div class="d-flex justify-content-center row">
 
-                            <div class="form-group col-12">
+                            <div class="form-group col-12" *ngIf="this._evento">
                               <label class="mb-2" for="link_external">Link info</label>
-                              <input class="form-control" id="link_external" placeholder="Introduzca link info" formControlName='link_external'>
+                              <input class="form-control" id="link_external" [(ngModel)]="this._evento.link_external" formControlName='link_external'>
                             </div>
 
                           </div>
 
                           <div class="d-flex justify-content-center row">
 
-                            <div class="form-group col-12">
+                            <div class="form-group col-12" *ngIf="this._evento">
                               <label class="mb-2" for="link_shop">Link compra</label>
-                              <input class="form-control" id="link_shop" placeholder="Introduzca link compra" formControlName='link_shop'>
+                              <input class="form-control" id="link_shop" [(ngModel)]="this._evento.link_shop" formControlName='link_shop'>
                             </div>
 
                           </div>

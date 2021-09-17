@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
   urlEndPoint:'/api/',
-  fqdn: 'http://backend.alessioarena.com'
+  fqdn: 'https://backend.alessioarena.com'
 };
