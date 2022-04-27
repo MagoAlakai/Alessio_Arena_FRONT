@@ -25,5 +25,4 @@ services:
 
 networks:
   nginx-proxy:
-    name: nginx-proxy
     external: true
