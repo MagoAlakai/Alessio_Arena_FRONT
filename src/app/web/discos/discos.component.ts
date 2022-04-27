@@ -15,31 +15,36 @@ export class DiscosComponent implements OnInit {
 
     this.discos = [
       {
+        titulo: 'Marco Polo (2022)',
+        link: 'https://open.spotify.com/album/6ujzeTdNBJxithiJkmGojW?si=RFTunnWKQz2sXhFZePezzw&nd=1',
+        imagen: '/assets/images/Alessio Arena - Marco Polo.jpg',
+      },
+      {
         titulo: 'Dummèneca (2020) - Con Giancarlo Arena',
         link: 'https://open.spotify.com/album/0iaz2Ooe4ySvgJmCFjPmMU?si=mURo0RHXSqq47Sn4b83gmA&dl_branch=1&nd=1',
         imagen: '/assets/images/Alessio e Giancarlo Arena - Dummèneca.jpg',
-      },
-      {
-        titulo: 'Atacama! (2019)',
-        link: 'https://open.spotify.com/album/6q0GpmH0bkdDuUvTd8leOf?si=Fd4IKySLQeOCq4hZtNTmVg&dl_branch=1&nd=1',
-        imagen: '/assets/images/Alessio Arena Atacama!.jpg',
       },
     ];
 
   this.discos1 = [
     {
+      titulo: 'Atacama! (2019)',
+      link: 'https://open.spotify.com/album/6q0GpmH0bkdDuUvTd8leOf?si=Fd4IKySLQeOCq4hZtNTmVg&dl_branch=1&nd=1',
+      imagen: '/assets/images/Alessio Arena Atacama!.jpg',
+    },
+    {
       titulo: 'La secreta danza (2016)',
       link: 'https://open.spotify.com/album/3VOVUdumQdaSGCoo1edBro?si=6YVjy_kRRvOZemAiCHp1vw&dl_branch=1&nd=1',
       imagen: '/assets/images/Alessio Arena La secreta danza.jpg',
     },
+  ];
+
+  this.discoGiancarlo = [
     {
       titulo: 'Bestiari(o) familiar(e) (2013)',
       link: 'https://open.spotify.com/album/6yJr0Imi77OU3SgkQoacXu?si=w9DQC1DhQOODE0OZWRM07g&dl_branch=1&nd=1',
       imagen: '/assets/images/Alessio Arena Bestiario Familiare.jpg',
     },
-  ];
-
-  this.discoGiancarlo = [
     {
       titulo: 'Autorretrato de ciudad invisible (2010)',
       link: 'https://open.spotify.com/album/78pylcdLzUTchThMeN0fuI?si=Ckw_CE1GTna-Ija7SaQfKA&dl_branch=1&nd=1',
